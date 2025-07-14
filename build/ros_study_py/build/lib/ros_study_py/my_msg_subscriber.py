@@ -7,11 +7,12 @@ class MyMsgSubscriber(Node):
     def __init__(self):
         super().__init__('my_msg_subscriber')
         qos_profile = QoSProfile(depth=10)
+        #qos도 10
         self.subscription = self.create_subscription(
-            MyMsg,                # 메시지 타입
-            'MyMsg',              # 토픽 이름
+            MyMsg,                   # 메시지 타입
+            'MyMsg',                 # 토픽 이름
             self.listener_callback,  # 콜백 함수
-            qos_profile           # QoS 설정
+            qos_profile              # QoS 설정
         )
         self.subscription  # unused warning 방지
 
