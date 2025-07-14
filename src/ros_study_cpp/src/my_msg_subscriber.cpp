@@ -11,7 +11,7 @@ public:
   {
     // QoS 프로필 생성 (default 기반, queue depth 10)
     auto qos = rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_default));
-    qos.keep_last(10);
+    qos.keep_last(10); //10
 
     // 구독자 생성
     subscription_ = this->create_subscription<ros_study_msgs::msg::MyMsg>(
