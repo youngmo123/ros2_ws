@@ -12,15 +12,24 @@ find_package(ros_study_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-add_executable(my_msg_test src/my_msg_test.cpp)
-add_executable(my_msg_sub src/my_msg_subscriber.cpp)
-ament_target_dependencies(my_msg_test rclcpp ros_study_msgs)
-ament_target_dependencies(my_msg_sub rclcpp ros_study_msgs)
 
-install(TARGETS
+
+set(EXECUTABLES
   my_msg_test
-  my_msg_sub
-  DESTINATION lib/${PROJECT_NAME})
+  my_msg_subscriber
+  my_service_client
+  my_service_server
+)
+
+
+foreach(target ${EXECUTABLES})
+  add_executable(${target} src/${target}.cpp)
+  ament_target_dependencies(${target} rclcpp std_msgs ros_study_msgs)
+  install(TARGETS ${target}
+    DESTINATION lib/${PROJECT_NAME})
+endforeach()
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

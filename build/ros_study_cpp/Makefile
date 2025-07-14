@@ -211,24 +211,50 @@ my_msg_test/fast:
 .PHONY : my_msg_test/fast
 
 #=============================================================================
-# Target rules for targets named my_msg_sub
+# Target rules for targets named my_msg_subscriber
 
 # Build rule for target.
-my_msg_sub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_msg_sub
-.PHONY : my_msg_sub
+my_msg_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_msg_subscriber
+.PHONY : my_msg_subscriber
 
 # fast build rule for target.
-my_msg_sub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/build
-.PHONY : my_msg_sub/fast
+my_msg_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_subscriber.dir/build.make CMakeFiles/my_msg_subscriber.dir/build
+.PHONY : my_msg_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named my_service_client
+
+# Build rule for target.
+my_service_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_service_client
+.PHONY : my_service_client
+
+# fast build rule for target.
+my_service_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_client.dir/build.make CMakeFiles/my_service_client.dir/build
+.PHONY : my_service_client/fast
+
+#=============================================================================
+# Target rules for targets named my_service_server
+
+# Build rule for target.
+my_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_service_server
+.PHONY : my_service_server
+
+# fast build rule for target.
+my_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_server.dir/build.make CMakeFiles/my_service_server.dir/build
+.PHONY : my_service_server/fast
 
 src/my_msg_subscriber.o: src/my_msg_subscriber.cpp.o
 .PHONY : src/my_msg_subscriber.o
 
 # target to build an object file
 src/my_msg_subscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_subscriber.dir/build.make CMakeFiles/my_msg_subscriber.dir/src/my_msg_subscriber.cpp.o
 .PHONY : src/my_msg_subscriber.cpp.o
 
 src/my_msg_subscriber.i: src/my_msg_subscriber.cpp.i
@@ -236,7 +262,7 @@ src/my_msg_subscriber.i: src/my_msg_subscriber.cpp.i
 
 # target to preprocess a source file
 src/my_msg_subscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_subscriber.dir/build.make CMakeFiles/my_msg_subscriber.dir/src/my_msg_subscriber.cpp.i
 .PHONY : src/my_msg_subscriber.cpp.i
 
 src/my_msg_subscriber.s: src/my_msg_subscriber.cpp.s
@@ -244,7 +270,7 @@ src/my_msg_subscriber.s: src/my_msg_subscriber.cpp.s
 
 # target to generate assembly for a file
 src/my_msg_subscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_subscriber.dir/build.make CMakeFiles/my_msg_subscriber.dir/src/my_msg_subscriber.cpp.s
 .PHONY : src/my_msg_subscriber.cpp.s
 
 src/my_msg_test.o: src/my_msg_test.cpp.o
@@ -271,6 +297,54 @@ src/my_msg_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_test.dir/build.make CMakeFiles/my_msg_test.dir/src/my_msg_test.cpp.s
 .PHONY : src/my_msg_test.cpp.s
 
+src/my_service_client.o: src/my_service_client.cpp.o
+.PHONY : src/my_service_client.o
+
+# target to build an object file
+src/my_service_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_client.dir/build.make CMakeFiles/my_service_client.dir/src/my_service_client.cpp.o
+.PHONY : src/my_service_client.cpp.o
+
+src/my_service_client.i: src/my_service_client.cpp.i
+.PHONY : src/my_service_client.i
+
+# target to preprocess a source file
+src/my_service_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_client.dir/build.make CMakeFiles/my_service_client.dir/src/my_service_client.cpp.i
+.PHONY : src/my_service_client.cpp.i
+
+src/my_service_client.s: src/my_service_client.cpp.s
+.PHONY : src/my_service_client.s
+
+# target to generate assembly for a file
+src/my_service_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_client.dir/build.make CMakeFiles/my_service_client.dir/src/my_service_client.cpp.s
+.PHONY : src/my_service_client.cpp.s
+
+src/my_service_server.o: src/my_service_server.cpp.o
+.PHONY : src/my_service_server.o
+
+# target to build an object file
+src/my_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_server.dir/build.make CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o
+.PHONY : src/my_service_server.cpp.o
+
+src/my_service_server.i: src/my_service_server.cpp.i
+.PHONY : src/my_service_server.i
+
+# target to preprocess a source file
+src/my_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_server.dir/build.make CMakeFiles/my_service_server.dir/src/my_service_server.cpp.i
+.PHONY : src/my_service_server.cpp.i
+
+src/my_service_server.s: src/my_service_server.cpp.s
+.PHONY : src/my_service_server.s
+
+# target to generate assembly for a file
+src/my_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_service_server.dir/build.make CMakeFiles/my_service_server.dir/src/my_service_server.cpp.s
+.PHONY : src/my_service_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +360,22 @@ help:
 	@echo "... test"
 	@echo "... ros_study_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... my_msg_sub"
+	@echo "... my_msg_subscriber"
 	@echo "... my_msg_test"
+	@echo "... my_service_client"
+	@echo "... my_service_server"
 	@echo "... src/my_msg_subscriber.o"
 	@echo "... src/my_msg_subscriber.i"
 	@echo "... src/my_msg_subscriber.s"
 	@echo "... src/my_msg_test.o"
 	@echo "... src/my_msg_test.i"
 	@echo "... src/my_msg_test.s"
+	@echo "... src/my_service_client.o"
+	@echo "... src/my_service_client.i"
+	@echo "... src/my_service_client.s"
+	@echo "... src/my_service_server.o"
+	@echo "... src/my_service_server.i"
+	@echo "... src/my_service_server.s"
 .PHONY : help
 
 

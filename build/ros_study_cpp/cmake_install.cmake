@@ -63,21 +63,61 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp" TYPE EXECUTABLE FILES "/home/youngmo/ros2_ws/build/ros_study_cpp/my_msg_sub")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp" TYPE EXECUTABLE FILES "/home/youngmo/ros2_ws/build/ros_study_cpp/my_msg_subscriber")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber"
          OLD_RPATH "/opt/ros/humble/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_sub")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_msg_subscriber")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp" TYPE EXECUTABLE FILES "/home/youngmo/ros2_ws/build/ros_study_cpp/my_service_client")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client"
+         OLD_RPATH "/opt/ros/humble/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_client")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp" TYPE EXECUTABLE FILES "/home/youngmo/ros2_ws/build/ros_study_cpp/my_service_server")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server"
+         OLD_RPATH "/opt/ros/humble/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros_study_cpp/my_service_server")
     endif()
   endif()
 endif()

@@ -1,0 +1,491 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (ros_study_msgs) JobQueued: {'identifier': 'ros_study_msgs', 'dependencies': OrderedDict()}
+[0.000907] (ros_study_cpp) JobQueued: {'identifier': 'ros_study_cpp', 'dependencies': OrderedDict([('ros_study_msgs', '/home/youngmo/ros2_ws/install/ros_study_msgs')])}
+[0.000920] (ros_study_py) JobQueued: {'identifier': 'ros_study_py', 'dependencies': OrderedDict([('ros_study_msgs', '/home/youngmo/ros2_ws/install/ros_study_msgs')])}
+[0.000930] (ros_study_msgs) JobStarted: {'identifier': 'ros_study_msgs'}
+[0.004275] (ros_study_msgs) JobProgress: {'identifier': 'ros_study_msgs', 'progress': 'cmake'}
+[0.004618] (ros_study_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/youngmo/ros2_ws/src/ros_study_msgs', '-DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/ros_study_msgs'], 'cwd': '/home/youngmo/ros2_ws/build/ros_study_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'youngmo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngmo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '19330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'youngmo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'youngmo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/youngmo-17ZD90TR-SX79K:@/tmp/.ICE-unix/2096,unix/youngmo-17ZD90TR-SX79K:/tmp/.ICE-unix/2096'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f188a1cc_3e16_4a17_937d_ad8b1e0abaf6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/youngmo/ros2_ws/build/ros_study_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069164] (ros_study_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100059] (-) TimerEvent: {}
+[0.123788] (ros_study_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.132552] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200287] (-) TimerEvent: {}
+[0.209583] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.218598] (ros_study_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.218761] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.218830] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222232] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300421] (-) TimerEvent: {}
+[0.306721] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.315692] (ros_study_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.315982] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.317527] (ros_study_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.318790] (ros_study_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400624] (-) TimerEvent: {}
+[0.469507] (ros_study_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500721] (-) TimerEvent: {}
+[0.536304] (ros_study_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.548467] (ros_study_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.550247] (ros_study_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.553378] (ros_study_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.558377] (ros_study_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.564400] (ros_study_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.570354] (ros_study_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600893] (-) TimerEvent: {}
+[0.701284] (-) TimerEvent: {}
+[0.750412] (ros_study_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801385] (-) TimerEvent: {}
+[0.901701] (-) TimerEvent: {}
+[1.002112] (-) TimerEvent: {}
+[1.103381] (-) TimerEvent: {}
+[1.110453] (ros_study_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.203488] (-) TimerEvent: {}
+[1.235286] (ros_study_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.264174] (ros_study_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.265598] (ros_study_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.294224] (ros_study_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.294438] (ros_study_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.294524] (ros_study_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.294582] (ros_study_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.303574] (-) TimerEvent: {}
+[1.319460] (ros_study_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.361472] (ros_study_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.371353] (ros_study_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.371512] (ros_study_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.371637] (ros_study_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.385535] (ros_study_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.390542] (ros_study_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/youngmo/ros2_ws/build/ros_study_msgs\n'}
+[1.394970] (ros_study_msgs) CommandEnded: {'returncode': 0}
+[1.395473] (ros_study_msgs) JobProgress: {'identifier': 'ros_study_msgs', 'progress': 'build'}
+[1.397140] (ros_study_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/youngmo/ros2_ws/build/ros_study_msgs', '--', '-j16', '-l16'], 'cwd': '/home/youngmo/ros2_ws/build/ros_study_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'youngmo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngmo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '19330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'youngmo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'youngmo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/youngmo-17ZD90TR-SX79K:@/tmp/.ICE-unix/2096,unix/youngmo-17ZD90TR-SX79K:/tmp/.ICE-unix/2096'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f188a1cc_3e16_4a17_937d_ad8b1e0abaf6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/youngmo/ros2_ws/build/ros_study_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.404373] (-) TimerEvent: {}
+[1.439743] (ros_study_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.451437] (ros_study_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.454353] (ros_study_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ros_study_msgs\n'}
+[1.505376] (-) TimerEvent: {}
+[1.582344] (ros_study_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.582577] (ros_study_msgs) StdoutLine: {'line': b'creating ros_study_msgs.egg-info\n'}
+[1.582665] (ros_study_msgs) StdoutLine: {'line': b'writing ros_study_msgs.egg-info/PKG-INFO\n'}
+[1.582720] (ros_study_msgs) StdoutLine: {'line': b'writing dependency_links to ros_study_msgs.egg-info/dependency_links.txt\n'}
+[1.582803] (ros_study_msgs) StdoutLine: {'line': b'writing top-level names to ros_study_msgs.egg-info/top_level.txt\n'}
+[1.582856] (ros_study_msgs) StdoutLine: {'line': b"writing manifest file 'ros_study_msgs.egg-info/SOURCES.txt'\n"}
+[1.583379] (ros_study_msgs) StdoutLine: {'line': b"reading manifest file 'ros_study_msgs.egg-info/SOURCES.txt'\n"}
+[1.583596] (ros_study_msgs) StdoutLine: {'line': b"writing manifest file 'ros_study_msgs.egg-info/SOURCES.txt'\n"}
+[1.603512] (ros_study_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_ros_study_msgs_egg\n'}
+[1.605465] (-) TimerEvent: {}
+[1.705824] (-) TimerEvent: {}
+[1.751925] (ros_study_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o\x1b[0m\n'}
+[1.752082] (ros_study_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o\x1b[0m\n'}
+[1.752161] (ros_study_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o\x1b[0m\n'}
+[1.757930] (ros_study_msgs) StdoutLine: {'line': b'[ 10%] Built target ros_study_msgs__cpp\n'}
+[1.766407] (ros_study_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.768600] (ros_study_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.771788] (ros_study_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.805925] (-) TimerEvent: {}
+[1.870675] (ros_study_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libros_study_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.906055] (-) TimerEvent: {}
+[1.916414] (ros_study_msgs) StdoutLine: {'line': b'[ 19%] Built target ros_study_msgs__rosidl_generator_c\n'}
+[1.928282] (ros_study_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.928417] (ros_study_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.930507] (ros_study_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.006242] (-) TimerEvent: {}
+[2.087911] (ros_study_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/srv/my_srv__type_support.cpp.o\x1b[0m\n'}
+[2.088039] (ros_study_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/msg/my_msg__type_support.cpp.o\x1b[0m\n'}
+[2.088469] (ros_study_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/action/my_action__type_support.cpp.o\x1b[0m\n'}
+[2.106465] (-) TimerEvent: {}
+[2.156964] (ros_study_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/srv/detail/my_srv__type_support.cpp.o\x1b[0m\n'}
+[2.157394] (ros_study_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/msg/detail/my_msg__type_support.cpp.o\x1b[0m\n'}
+[2.157468] (ros_study_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/action/detail/my_action__type_support.cpp.o\x1b[0m\n'}
+[2.203316] (ros_study_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/msg/detail/dds_fastrtps/my_msg__type_support.cpp.o\x1b[0m\n'}
+[2.203854] (ros_study_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/srv/detail/dds_fastrtps/my_srv__type_support.cpp.o\x1b[0m\n'}
+[2.204640] (ros_study_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/action/detail/dds_fastrtps/my_action__type_support.cpp.o\x1b[0m\n'}
+[2.206543] (-) TimerEvent: {}
+[2.249046] (ros_study_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/msg/my_msg__type_support.cpp.o\x1b[0m\n'}
+[2.256708] (ros_study_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/srv/my_srv__type_support.cpp.o\x1b[0m\n'}
+[2.257341] (ros_study_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/action/my_action__type_support.cpp.o\x1b[0m\n'}
+[2.286124] (ros_study_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.307014] (-) TimerEvent: {}
+[2.315424] (ros_study_msgs) StdoutLine: {'line': b'[ 53%] Built target ros_study_msgs__rosidl_typesupport_c\n'}
+[2.324934] (ros_study_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/msg/detail/my_msg__type_support.c.o\x1b[0m\n'}
+[2.325098] (ros_study_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/srv/detail/my_srv__type_support.c.o\x1b[0m\n'}
+[2.327690] (ros_study_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/action/detail/my_action__type_support.c.o\x1b[0m\n'}
+[2.367662] (ros_study_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libros_study_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.377049] (ros_study_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/action/detail/my_action__type_support_c.cpp.o\x1b[0m\n'}
+[2.377216] (ros_study_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/msg/detail/my_msg__type_support_c.cpp.o\x1b[0m\n'}
+[2.378174] (ros_study_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/srv/detail/my_srv__type_support_c.cpp.o\x1b[0m\n'}
+[2.401009] (ros_study_msgs) StdoutLine: {'line': b'[ 68%] Built target ros_study_msgs__rosidl_typesupport_introspection_c\n'}
+[2.407320] (-) TimerEvent: {}
+[2.448296] (ros_study_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.488844] (ros_study_msgs) StdoutLine: {'line': b'[ 70%] Built target ros_study_msgs__rosidl_typesupport_cpp\n'}
+[2.507527] (-) TimerEvent: {}
+[2.607897] (-) TimerEvent: {}
+[2.649385] (ros_study_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.655540] (ros_study_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.699259] (ros_study_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.708040] (-) TimerEvent: {}
+[2.733502] (ros_study_msgs) StdoutLine: {'line': b'[ 76%] Built target ros_study_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.733658] (ros_study_msgs) StdoutLine: {'line': b'[ 76%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.781937] (ros_study_msgs) StdoutLine: {'line': b'[ 76%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.808189] (-) TimerEvent: {}
+[2.808303] (ros_study_msgs) StdoutLine: {'line': b'[ 76%] Built target ros_study_msgs\n'}
+[2.832122] (ros_study_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.908287] (-) TimerEvent: {}
+[3.008596] (-) TimerEvent: {}
+[3.108980] (-) TimerEvent: {}
+[3.209350] (-) TimerEvent: {}
+[3.309700] (-) TimerEvent: {}
+[3.410124] (-) TimerEvent: {}
+[3.412827] (ros_study_msgs) StdoutLine: {'line': b'[ 78%] Built target ros_study_msgs__py\n'}
+[3.430267] (ros_study_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c.o\x1b[0m\n'}
+[3.432118] (ros_study_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_my_action_s.c.o\x1b[0m\n'}
+[3.434706] (ros_study_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c.o\x1b[0m\n'}
+[3.506304] (ros_study_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_study_msgs/libros_study_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.510290] (-) TimerEvent: {}
+[3.550706] (ros_study_msgs) StdoutLine: {'line': b'[ 87%] Built target ros_study_msgs__rosidl_generator_py\n'}
+[3.570144] (ros_study_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.572683] (ros_study_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.573729] (ros_study_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.610517] (-) TimerEvent: {}
+[3.640881] (ros_study_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.642378] (ros_study_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.649636] (ros_study_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.668753] (ros_study_msgs) StdoutLine: {'line': b'[100%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.668976] (ros_study_msgs) StdoutLine: {'line': b'[100%] Built target ros_study_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.685103] (ros_study_msgs) StdoutLine: {'line': b'[100%] Built target ros_study_msgs__rosidl_typesupport_c__pyext\n'}
+[3.697345] (ros_study_msgs) CommandEnded: {'returncode': 0}
+[3.698338] (ros_study_msgs) JobProgress: {'identifier': 'ros_study_msgs', 'progress': 'install'}
+[3.708084] (ros_study_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/youngmo/ros2_ws/build/ros_study_msgs'], 'cwd': '/home/youngmo/ros2_ws/build/ros_study_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'youngmo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngmo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '19330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'youngmo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'youngmo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/youngmo-17ZD90TR-SX79K:@/tmp/.ICE-unix/2096,unix/youngmo-17ZD90TR-SX79K:/tmp/.ICE-unix/2096'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f188a1cc_3e16_4a17_937d_ad8b1e0abaf6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/youngmo/ros2_ws/build/ros_study_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.710597] (-) TimerEvent: {}
+[3.715631] (ros_study_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.715790] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/rosidl_interfaces/ros_study_msgs\n'}
+[3.715858] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.715911] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.715960] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/my_srv.h\n'}
+[3.716007] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.716053] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__functions.c\n'}
+[3.716111] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.h\n'}
+[3.716158] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__functions.h\n'}
+[3.716202] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__struct.h\n'}
+[3.716264] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.716388] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.716441] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__functions.c\n'}
+[3.716490] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.h\n'}
+[3.716535] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__struct.h\n'}
+[3.716580] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__functions.h\n'}
+[3.716624] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/my_action.h\n'}
+[3.717261] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.717351] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/my_msg.h\n'}
+[3.717472] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.717526] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__struct.h\n'}
+[3.717574] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__functions.c\n'}
+[3.718411] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.h\n'}
+[3.718835] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__functions.h\n'}
+[3.718912] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.718968] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/library_path.sh\n'}
+[3.719018] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/library_path.dsv\n'}
+[3.719065] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_c.so\n'}
+[3.719110] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_c.so" to ""\n'}
+[3.719157] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.719230] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.719609] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.719691] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[3.719749] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.719799] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.719844] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_fastrtps_c.h\n'}
+[3.719892] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.719937] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.719982] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[3.720026] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.720069] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.720112] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.720156] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.720198] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.720256] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.720300] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__traits.hpp\n'}
+[3.720342] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.hpp\n'}
+[3.720728] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__builder.hpp\n'}
+[3.720820] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__struct.hpp\n'}
+[3.720878] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/my_srv.hpp\n'}
+[3.720931] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.720992] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/my_action.hpp\n'}
+[3.721040] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.721464] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__builder.hpp\n'}
+[3.721551] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__traits.hpp\n'}
+[3.721605] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__struct.hpp\n'}
+[3.721657] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.hpp\n'}
+[3.721704] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.721750] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.721796] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.721844] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__struct.hpp\n'}
+[3.721892] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__traits.hpp\n'}
+[3.721937] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.hpp\n'}
+[3.721985] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__builder.hpp\n'}
+[3.722030] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/my_msg.hpp\n'}
+[3.722074] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.722119] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.722163] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.722206] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/dds_fastrtps\n'}
+[3.722270] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.722614] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.722710] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.722768] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.722823] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/dds_fastrtps\n'}
+[3.722870] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.722916] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.722961] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.723015] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/dds_fastrtps\n'}
+[3.723058] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.723101] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.723143] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.723185] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.723281] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.723332] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.723374] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.c\n'}
+[3.723422] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_introspection_c.h\n'}
+[3.723465] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.723506] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.723547] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.c\n'}
+[3.723589] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_introspection_c.h\n'}
+[3.723632] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.723672] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.723715] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.723758] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.c\n'}
+[3.723802] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_introspection_c.h\n'}
+[3.723844] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.723886] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.723928] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_c.so\n'}
+[3.723968] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.724060] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs\n'}
+[3.724105] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv\n'}
+[3.724155] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail\n'}
+[3.724200] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.cpp\n'}
+[3.724260] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.724307] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action\n'}
+[3.724353] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail\n'}
+[3.724400] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.724447] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.cpp\n'}
+[3.724492] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg\n'}
+[3.724537] (ros_study_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail\n'}
+[3.724584] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.cpp\n'}
+[3.724630] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.724676] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.724722] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.724769] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_cpp.so\n'}
+[3.724814] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.724861] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/pythonpath.sh\n'}
+[3.724940] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/pythonpath.dsv\n'}
+[3.724992] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info\n'}
+[3.725042] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.725091] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.725139] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.725257] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.725310] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs\n'}
+[3.725366] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.725411] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.725455] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv\n'}
+[3.725498] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv_s.c\n'}
+[3.725542] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv.py\n'}
+[3.725585] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/__init__.py\n'}
+[3.725627] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action\n'}
+[3.725668] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/__init__.py\n'}
+[3.725709] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action_s.c\n'}
+[3.725750] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action.py\n'}
+[3.725790] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.725835] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.725876] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/libros_study_msgs__rosidl_generator_py.so\n'}
+[3.725916] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/__init__.py\n'}
+[3.725982] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg\n'}
+[3.726023] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg.py\n'}
+[3.726063] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/__init__.py\n'}
+[3.726103] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg_s.c\n'}
+[3.726143] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.726187] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.749642] (ros_study_msgs) StdoutLine: {'line': b"Listing '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs'...\n"}
+[3.749897] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/__init__.py'...\n"}
+[3.749991] (ros_study_msgs) StdoutLine: {'line': b"Listing '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action'...\n"}
+[3.750079] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/__init__.py'...\n"}
+[3.750148] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action.py'...\n"}
+[3.750230] (ros_study_msgs) StdoutLine: {'line': b"Listing '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg'...\n"}
+[3.750310] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/__init__.py'...\n"}
+[3.750379] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg.py'...\n"}
+[3.750447] (ros_study_msgs) StdoutLine: {'line': b"Listing '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv'...\n"}
+[3.750519] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/__init__.py'...\n"}
+[3.750587] (ros_study_msgs) StdoutLine: {'line': b"Compiling '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv.py'...\n"}
+[3.752528] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.753175] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.753383] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.753549] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.753895] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.754153] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.754245] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_py.so\n'}
+[3.754720] (ros_study_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/youngmo/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_py.so" to ""\n'}
+[3.754979] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/msg/MyMsg.idl\n'}
+[3.755064] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv.idl\n'}
+[3.755169] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/action/MyAction.idl\n'}
+[3.755296] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/msg/MyMsg.msg\n'}
+[3.755421] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv.srv\n'}
+[3.756476] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv_Request.msg\n'}
+[3.756672] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv_Response.msg\n'}
+[3.756746] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/action/MyAction.action\n'}
+[3.756801] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/package_run_dependencies/ros_study_msgs\n'}
+[3.756857] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/parent_prefix_path/ros_study_msgs\n'}
+[3.756907] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/ament_prefix_path.sh\n'}
+[3.756956] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/ament_prefix_path.dsv\n'}
+[3.757005] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/path.sh\n'}
+[3.757050] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/path.dsv\n'}
+[3.757095] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.bash\n'}
+[3.757230] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.sh\n'}
+[3.757304] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.zsh\n'}
+[3.757357] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.dsv\n'}
+[3.757403] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.dsv\n'}
+[3.757448] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/packages/ros_study_msgs\n'}
+[3.757497] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cExport.cmake\n'}
+[3.757543] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.757646] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.757737] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.757783] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.757830] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.757928] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.757979] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.758619] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.758677] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.758729] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.758780] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.758829] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.758877] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.758926] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.759408] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.759461] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.759506] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.759550] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.759594] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.759638] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.759683] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.759728] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.759826] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.759875] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgsConfig.cmake\n'}
+[3.759920] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgsConfig-version.cmake\n'}
+[3.759972] (ros_study_msgs) StdoutLine: {'line': b'-- Installing: /home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.xml\n'}
+[3.762557] (ros_study_msgs) CommandEnded: {'returncode': 0}
+[3.783273] (ros_study_msgs) JobEnded: {'identifier': 'ros_study_msgs', 'rc': 0}
+[3.784381] (ros_study_cpp) JobStarted: {'identifier': 'ros_study_cpp'}
+[3.786083] (ros_study_py) JobStarted: {'identifier': 'ros_study_py'}
+[3.791331] (ros_study_cpp) JobProgress: {'identifier': 'ros_study_cpp', 'progress': 'cmake'}
+[3.792030] (ros_study_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/youngmo/ros2_ws/src/ros_study_cpp', '-DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/ros_study_cpp'], 'cwd': '/home/youngmo/ros2_ws/build/ros_study_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'youngmo'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngmo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '19330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'youngmo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'youngmo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/youngmo-17ZD90TR-SX79K:@/tmp/.ICE-unix/2096,unix/youngmo-17ZD90TR-SX79K:/tmp/.ICE-unix/2096'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f188a1cc_3e16_4a17_937d_ad8b1e0abaf6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/youngmo/ros2_ws/install/ros_study_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/youngmo/ros2_ws/build/ros_study_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/youngmo/ros2_ws/install/ros_study_msgs:/opt/ros/humble')]), 'shell': False}
+[3.810720] (-) TimerEvent: {}
+[3.856262] (ros_study_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.909920] (ros_study_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.910845] (-) TimerEvent: {}
+[3.919467] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.979913] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.989174] (ros_study_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.989398] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.989844] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.992494] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.011009] (-) TimerEvent: {}
+[4.082798] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.091767] (ros_study_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.092061] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.092838] (ros_study_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.094912] (ros_study_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.100413] (ros_study_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_study_py', 'build', '--build-base', '/home/youngmo/ros2_ws/build/ros_study_py/build', 'install', '--record', '/home/youngmo/ros2_ws/build/ros_study_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/youngmo/ros2_ws/src/ros_study_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'youngmo', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/youngmo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '19330', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'youngmo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'youngmo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/youngmo-17ZD90TR-SX79K:@/tmp/.ICE-unix/2096,unix/youngmo-17ZD90TR-SX79K:/tmp/.ICE-unix/2096', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f188a1cc_3e16_4a17_937d_ad8b1e0abaf6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/youngmo/ros2_ws/install/ros_study_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/youngmo/ros2_ws/build/ros_study_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/youngmo/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/youngmo/ros2_ws/install/ros_study_msgs'}, 'shell': False}
+[4.111159] (-) TimerEvent: {}
+[4.199657] (ros_study_py) StdoutLine: {'line': b'running egg_info\n'}
+[4.199884] (ros_study_py) StdoutLine: {'line': b'creating ../../build/ros_study_py/ros_study_py.egg-info\n'}
+[4.199952] (ros_study_py) StdoutLine: {'line': b'writing ../../build/ros_study_py/ros_study_py.egg-info/PKG-INFO\n'}
+[4.200015] (ros_study_py) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_study_py/ros_study_py.egg-info/dependency_links.txt\n'}
+[4.200329] (ros_study_py) StdoutLine: {'line': b'writing entry points to ../../build/ros_study_py/ros_study_py.egg-info/entry_points.txt\n'}
+[4.200478] (ros_study_py) StdoutLine: {'line': b'writing requirements to ../../build/ros_study_py/ros_study_py.egg-info/requires.txt\n'}
+[4.200537] (ros_study_py) StdoutLine: {'line': b'writing top-level names to ../../build/ros_study_py/ros_study_py.egg-info/top_level.txt\n'}
+[4.200593] (ros_study_py) StdoutLine: {'line': b"writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'\n"}
+[4.200640] (ros_study_py) StdoutLine: {'line': b"reading manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'\n"}
+[4.201073] (ros_study_py) StdoutLine: {'line': b"writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'\n"}
+[4.201224] (ros_study_py) StdoutLine: {'line': b'running build\n'}
+[4.201298] (ros_study_py) StdoutLine: {'line': b'running build_py\n'}
+[4.201351] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/build/ros_study_py/build\n'}
+[4.201491] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/build/ros_study_py/build/lib\n'}
+[4.201549] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201601] (ros_study_py) StdoutLine: {'line': b'copying ros_study_py/my_msg_test.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201651] (ros_study_py) StdoutLine: {'line': b'copying ros_study_py/my_msg_subscriber.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201700] (ros_study_py) StdoutLine: {'line': b'copying ros_study_py/__init__.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201749] (ros_study_py) StdoutLine: {'line': b'copying ros_study_py/my_service_client.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201797] (ros_study_py) StdoutLine: {'line': b'copying ros_study_py/my_service_server.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py\n'}
+[4.201843] (ros_study_py) StdoutLine: {'line': b'running install\n'}
+[4.201888] (ros_study_py) StdoutLine: {'line': b'running install_lib\n'}
+[4.201935] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.201987] (ros_study_py) StdoutLine: {'line': b'copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_test.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.202038] (ros_study_py) StdoutLine: {'line': b'copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_subscriber.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.202151] (ros_study_py) StdoutLine: {'line': b'copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/__init__.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.202207] (ros_study_py) StdoutLine: {'line': b'copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_service_client.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.202303] (ros_study_py) StdoutLine: {'line': b'copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_service_server.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py\n'}
+[4.202366] (ros_study_py) StdoutLine: {'line': b'byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_test.py to my_msg_test.cpython-310.pyc\n'}
+[4.203295] (ros_study_py) StdoutLine: {'line': b'byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_subscriber.py to my_msg_subscriber.cpython-310.pyc\n'}
+[4.203344] (ros_study_py) StdoutLine: {'line': b'byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__init__.py to __init__.cpython-310.pyc\n'}
+[4.203404] (ros_study_py) StdoutLine: {'line': b'byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_service_client.py to my_service_client.cpython-310.pyc\n'}
+[4.203448] (ros_study_py) StdoutLine: {'line': b'byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_service_server.py to my_service_server.cpython-310.pyc\n'}
+[4.203494] (ros_study_py) StdoutLine: {'line': b'running install_data\n'}
+[4.203536] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index\n'}
+[4.203580] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index\n'}
+[4.203625] (ros_study_py) StdoutLine: {'line': b'creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages\n'}
+[4.203667] (ros_study_py) StdoutLine: {'line': b'copying resource/ros_study_py -> /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages\n'}
+[4.203712] (ros_study_py) StdoutLine: {'line': b'copying package.xml -> /home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py\n'}
+[4.203754] (ros_study_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.203795] (ros_study_py) StdoutLine: {'line': b'Copying ../../build/ros_study_py/ros_study_py.egg-info to /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info\n'}
+[4.203858] (ros_study_py) StdoutLine: {'line': b'running install_scripts\n'}
+[4.211299] (-) TimerEvent: {}
+[4.213249] (ros_study_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.214877] (ros_study_py) StdoutLine: {'line': b'Installing my_msg_subscriber script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py\n'}
+[4.215057] (ros_study_py) StdoutLine: {'line': b'Installing my_msg_test script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py\n'}
+[4.215143] (ros_study_py) StdoutLine: {'line': b'Installing my_service_client script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py\n'}
+[4.215202] (ros_study_py) StdoutLine: {'line': b'Installing my_service_server script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py\n'}
+[4.215275] (ros_study_py) StdoutLine: {'line': b"writing list of installed files to '/home/youngmo/ros2_ws/build/ros_study_py/install.log'\n"}
+[4.226760] (ros_study_py) CommandEnded: {'returncode': 0}
+[4.230002] (ros_study_py) JobEnded: {'identifier': 'ros_study_py', 'rc': 0}
+[4.265351] (ros_study_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.281799] (ros_study_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.283617] (ros_study_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.286962] (ros_study_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.291843] (ros_study_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.298395] (ros_study_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.311385] (-) TimerEvent: {}
+[4.316301] (ros_study_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.317313] (ros_study_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.379470] (ros_study_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.409854] (ros_study_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.411477] (-) TimerEvent: {}
+[4.428658] (ros_study_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.431867] (ros_study_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.507700] (ros_study_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.508306] (ros_study_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.511577] (-) TimerEvent: {}
+[4.598552] (ros_study_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.598848] (ros_study_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.611666] (-) TimerEvent: {}
+[4.633441] (ros_study_cpp) StdoutLine: {'line': b'-- Found ros_study_msgs: 0.0.0 (/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake)\n'}
+[4.666509] (ros_study_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.704486] (ros_study_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.704700] (ros_study_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.704770] (ros_study_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.704828] (ros_study_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.704885] (ros_study_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.704937] (ros_study_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.704986] (ros_study_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.705066] (ros_study_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.706594] (ros_study_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.706775] (ros_study_cpp) StderrLine: {'line': b'  Cannot find source file:\n'}
+[4.706846] (ros_study_cpp) StderrLine: {'line': b'\n'}
+[4.706903] (ros_study_cpp) StderrLine: {'line': b'    src/my_msg_subcriber.cpp\n'}
+[4.706958] (ros_study_cpp) StderrLine: {'line': b'\n'}
+[4.707011] (ros_study_cpp) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[4.707062] (ros_study_cpp) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[4.707111] (ros_study_cpp) StderrLine: {'line': b'\n'}
+[4.707160] (ros_study_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[4.707278] (ros_study_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.707339] (ros_study_cpp) StderrLine: {'line': b'  No SOURCES given to target: my_msg_subcriber\n'}
+[4.707387] (ros_study_cpp) StderrLine: {'line': b'\n'}
+[4.707430] (ros_study_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[4.707474] (ros_study_cpp) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.711890] (ros_study_cpp) CommandEnded: {'returncode': 1}
+[4.712416] (-) TimerEvent: {}
+[4.724184] (ros_study_cpp) JobEnded: {'identifier': 'ros_study_cpp', 'rc': 1}
+[4.734762] (-) EventReactorShutdown: {}

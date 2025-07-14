@@ -18,6 +18,7 @@ class MyServiceClient(Node):
 
         # 비동기 서비스 호출
         self.future = self.cli.call_async(self.req)
+        #3.14를 보냄
 
 def main(args=None):
     rclpy.init(args=args)
