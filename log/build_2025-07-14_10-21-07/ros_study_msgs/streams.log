@@ -1,0 +1,20 @@
+[0.005s] Invoking command in '/home/youngmo/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngmo/ros2_ws/src/ros_study_msgs -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/ros_study_msgs
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.142s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.146s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.161s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.163s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.163s]   rosidl_generate_interfaces() the passed file 'action/Myaction.action'
+[0.163s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.163s]   '/home/youngmo/ros2_ws/src/ros_study_msgs'
+[0.163s] Call Stack (most recent call first):
+[0.163s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.164s] 
+[0.164s] [0m
+[0.164s] -- Configuring incomplete, errors occurred!
+[0.164s] See also "/home/youngmo/ros2_ws/build/ros_study_msgs/CMakeFiles/CMakeOutput.log".
+[0.166s] Invoked command in '/home/youngmo/ros2_ws/build/ros_study_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngmo/ros2_ws/src/ros_study_msgs -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/ros_study_msgs
