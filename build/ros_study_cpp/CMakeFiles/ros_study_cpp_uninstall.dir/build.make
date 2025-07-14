@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youngmo/ros2_ws/ros_study_cpp
+CMAKE_SOURCE_DIR = /home/youngmo/ros2_ws/src/ros_study_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/youngmo/ros2_ws/build/ros_study_cpp
@@ -82,6 +82,6 @@ CMakeFiles/ros_study_cpp_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros_study_cpp_uninstall.dir/clean
 
 CMakeFiles/ros_study_cpp_uninstall.dir/depend:
-	cd /home/youngmo/ros2_ws/build/ros_study_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youngmo/ros2_ws/ros_study_cpp /home/youngmo/ros2_ws/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp/CMakeFiles/ros_study_cpp_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/youngmo/ros2_ws/build/ros_study_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youngmo/ros2_ws/src/ros_study_cpp /home/youngmo/ros2_ws/src/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp /home/youngmo/ros2_ws/build/ros_study_cpp/CMakeFiles/ros_study_cpp_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros_study_cpp_uninstall.dir/depend
 

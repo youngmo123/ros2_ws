@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youngmo/ros2_ws/ros_study_cpp
+CMAKE_SOURCE_DIR = /home/youngmo/ros2_ws/src/ros_study_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/youngmo/ros2_ws/build/ros_study_cpp
@@ -210,6 +210,43 @@ my_msg_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_test.dir/build.make CMakeFiles/my_msg_test.dir/build
 .PHONY : my_msg_test/fast
 
+#=============================================================================
+# Target rules for targets named my_msg_sub
+
+# Build rule for target.
+my_msg_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_msg_sub
+.PHONY : my_msg_sub
+
+# fast build rule for target.
+my_msg_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/build
+.PHONY : my_msg_sub/fast
+
+src/my_msg_subscriber.o: src/my_msg_subscriber.cpp.o
+.PHONY : src/my_msg_subscriber.o
+
+# target to build an object file
+src/my_msg_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.o
+.PHONY : src/my_msg_subscriber.cpp.o
+
+src/my_msg_subscriber.i: src/my_msg_subscriber.cpp.i
+.PHONY : src/my_msg_subscriber.i
+
+# target to preprocess a source file
+src/my_msg_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.i
+.PHONY : src/my_msg_subscriber.cpp.i
+
+src/my_msg_subscriber.s: src/my_msg_subscriber.cpp.s
+.PHONY : src/my_msg_subscriber.s
+
+# target to generate assembly for a file
+src/my_msg_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_msg_sub.dir/build.make CMakeFiles/my_msg_sub.dir/src/my_msg_subscriber.cpp.s
+.PHONY : src/my_msg_subscriber.cpp.s
+
 src/my_msg_test.o: src/my_msg_test.cpp.o
 .PHONY : src/my_msg_test.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... ros_study_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... my_msg_sub"
 	@echo "... my_msg_test"
+	@echo "... src/my_msg_subscriber.o"
+	@echo "... src/my_msg_subscriber.i"
+	@echo "... src/my_msg_subscriber.s"
 	@echo "... src/my_msg_test.o"
 	@echo "... src/my_msg_test.i"
 	@echo "... src/my_msg_test.s"

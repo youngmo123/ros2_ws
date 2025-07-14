@@ -1,6 +1,8 @@
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_test.py
+/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_subscriber.py
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__init__.py
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__pycache__/my_msg_test.cpython-310.pyc
+/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__pycache__/my_msg_subscriber.cpython-310.pyc
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__pycache__/__init__.cpython-310.pyc
 /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages/ros_study_py
 /home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.xml
@@ -11,4 +13,5 @@
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info/entry_points.txt
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info/PKG-INFO
+/home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py/my_msg_subscriber
 /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py/my_msg_test

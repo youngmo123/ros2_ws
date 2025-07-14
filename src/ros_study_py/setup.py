@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "my_msg_test = ros_study_py.my_msg_test:main",
+            "my_msg_subscriber = ros_study_py.my_msg_subscriber:main",
         ],
     },
 )
