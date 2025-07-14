@@ -24,6 +24,8 @@ setup(
             "my_msg_subscriber = ros_study_py.my_msg_subscriber:main",
             "my_service_client = ros_study_py.my_service_client:main",
             "my_service_server = ros_study_py.my_service_server:main",
+            "my_action_server = ros_study_py.my_action_server:main",
+            "my_action_client = ros_study_py.my_action_client:main",
 
         ],
     },
