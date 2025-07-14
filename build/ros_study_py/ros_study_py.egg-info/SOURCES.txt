@@ -10,6 +10,8 @@ setup.py
 ../../build/ros_study_py/ros_study_py.egg-info/zip-safe
 resource/ros_study_py
 ros_study_py/__init__.py
+ros_study_py/my_action_client.py
+ros_study_py/my_action_server.py
 ros_study_py/my_msg_subscriber.py
 ros_study_py/my_msg_test.py
 ros_study_py/my_service_client.py
