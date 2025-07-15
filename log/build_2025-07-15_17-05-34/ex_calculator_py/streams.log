@@ -1,0 +1,74 @@
+[0.486s] Invoking command in '/home/youngmo/ros2_ws/src/ex_calculator_py': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[0.626s] running egg_info
+[0.626s] creating ../../build/ex_calculator_py/ex_calculator_py.egg-info
+[0.626s] writing ../../build/ex_calculator_py/ex_calculator_py.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../../build/ex_calculator_py/ex_calculator_py.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../../build/ex_calculator_py/ex_calculator_py.egg-info/entry_points.txt
+[0.628s] writing requirements to ../../build/ex_calculator_py/ex_calculator_py.egg-info/requires.txt
+[0.628s] writing top-level names to ../../build/ex_calculator_py/ex_calculator_py.egg-info/top_level.txt
+[0.628s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.628s] reading manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.628s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.628s] running build
+[0.628s] running build_py
+[0.628s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build
+[0.629s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib
+[0.629s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py
+[0.629s] copying ex_calculator_py/__init__.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py
+[0.629s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker
+[0.629s] copying ex_calculator_py/checker/checker.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker
+[0.629s] copying ex_calculator_py/checker/__init__.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker
+[0.629s] copying ex_calculator_py/checker/main.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker
+[0.629s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic
+[0.629s] copying ex_calculator_py/arithmetic/operator.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic
+[0.629s] copying ex_calculator_py/arithmetic/__init__.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic
+[0.629s] copying ex_calculator_py/arithmetic/argument.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic
+[0.629s] creating /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator
+[0.629s] copying ex_calculator_py/calculator/__init__.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator
+[0.630s] copying ex_calculator_py/calculator/calculator.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator
+[0.630s] copying ex_calculator_py/calculator/main.py -> /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator
+[0.630s] running install
+[0.630s] running install_lib
+[0.631s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py
+[0.631s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker
+[0.631s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker/checker.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker
+[0.631s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker/__init__.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker
+[0.631s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/checker/main.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker
+[0.631s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/__init__.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py
+[0.631s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic/operator.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic/__init__.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/arithmetic/argument.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic
+[0.632s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator/__init__.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator/calculator.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator
+[0.632s] copying /home/youngmo/ros2_ws/build/ex_calculator_py/build/lib/ex_calculator_py/calculator/main.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator
+[0.632s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker/checker.py to checker.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker/__init__.py to __init__.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/checker/main.py to main.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/__init__.py to __init__.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic/operator.py to operator.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic/__init__.py to __init__.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/arithmetic/argument.py to argument.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator/__init__.py to __init__.cpython-310.pyc
+[0.633s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator/calculator.py to calculator.cpython-310.pyc
+[0.634s] byte-compiling /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py/calculator/main.py to main.cpython-310.pyc
+[0.634s] running install_data
+[0.634s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ament_index
+[0.634s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ament_index/resource_index
+[0.634s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ament_index/resource_index/packages
+[0.636s] copying resource/ex_calculator_py -> /home/youngmo/ros2_ws/install/ex_calculator_py/share/ament_index/resource_index/packages
+[0.636s] copying package.xml -> /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py
+[0.636s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/launch
+[0.636s] copying launch/arithmetic.launch.py -> /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/launch
+[0.636s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/param
+[0.636s] copying param/arithmetic_config.yaml -> /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/param
+[0.636s] running install_egg_info
+[0.636s] Copying ../../build/ex_calculator_py/ex_calculator_py.egg-info to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info
+[0.636s] running install_scripts
+[0.653s] Installing argument script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.653s] Installing calculator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.653s] Installing checker script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.653s] Installing operator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.653s] writing list of installed files to '/home/youngmo/ros2_ws/build/ex_calculator_py/install.log'
+[0.676s] Invoked command in '/home/youngmo/ros2_ws/src/ex_calculator_py' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
