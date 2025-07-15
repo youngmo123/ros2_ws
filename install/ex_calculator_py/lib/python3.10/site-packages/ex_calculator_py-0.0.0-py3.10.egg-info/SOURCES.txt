@@ -15,6 +15,9 @@ ex_calculator_py/arithmetic/operator.py
 ex_calculator_py/calculator/__init__.py
 ex_calculator_py/calculator/calculator.py
 ex_calculator_py/calculator/main.py
+ex_calculator_py/checker/__init__.py
+ex_calculator_py/checker/checker.py
+ex_calculator_py/checker/main.py
 param/arithmetic_config.yaml
 resource/ex_calculator_py
 test/test_copyright.py
