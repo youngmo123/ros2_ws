@@ -1,0 +1,22 @@
+[0.647s] Invoking command in '/home/youngmo/ros2_ws/src/ex_calculator_py': AMENT_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[0.914s] running egg_info
+[0.914s] creating ../../build/ex_calculator_py/ex_calculator_py.egg-info
+[0.914s] writing ../../build/ex_calculator_py/ex_calculator_py.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../build/ex_calculator_py/ex_calculator_py.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../../build/ex_calculator_py/ex_calculator_py.egg-info/entry_points.txt
+[0.914s] writing requirements to ../../build/ex_calculator_py/ex_calculator_py.egg-info/requires.txt
+[0.914s] writing top-level names to ../../build/ex_calculator_py/ex_calculator_py.egg-info/top_level.txt
+[0.914s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.914s] reading manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.916s] running build
+[0.916s] running install
+[0.916s] running install_data
+[0.916s] creating /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/param
+[0.916s] copying param/arithmetic_config.yaml -> /home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/param
+[0.916s] running install_egg_info
+[0.919s] Copying ../../build/ex_calculator_py/ex_calculator_py.egg-info to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info
+[0.919s] running install_scripts
+[0.945s] Installing argument script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.945s] writing list of installed files to '/home/youngmo/ros2_ws/build/ex_calculator_py/install.log'
+[0.981s] Invoked command in '/home/youngmo/ros2_ws/src/ex_calculator_py' returned '0': AMENT_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:/home/youngmo/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data

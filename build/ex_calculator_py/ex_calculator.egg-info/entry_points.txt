@@ -1,0 +1,3 @@
+[console_scripts]
+argument = ex_calculator_py.arithmetic.argument:main
+

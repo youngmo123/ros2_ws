@@ -10,9 +10,16 @@ find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-set(msg_files "msg/MyMsg.msg")   #set msg_files = "msg/MyMsg.msg"
-set(srv_files "srv/MySrv.srv")
-set(action_files "action/MyAction.action")
+set(msg_files 
+"msg/MyMsg.msg" 
+"msg/ArithmeticArgument.msg"
+ )   #set msg_files = "msg/MyMsg.msg"
+set(srv_files 
+"srv/MySrv.srv" 
+"srv/ArithmeticOperator.srv")
+set(action_files 
+"action/MyAction.action" 
+"action/ArthmeticChecker.action")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

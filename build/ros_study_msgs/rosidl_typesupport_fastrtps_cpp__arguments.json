@@ -4,8 +4,11 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:msg/MyMsg.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:msg/ArithmeticArgument.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/MySrv.idl",
-    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/MyAction.idl"
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/ArithmeticOperator.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/MyAction.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/ArthmeticChecker.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -26,8 +29,11 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/msg/MyMsg.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/MySrv.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/MyAction.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArthmeticChecker.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
