@@ -1,3 +1,5 @@
 [console_scripts]
 argument = ex_calculator_py.arithmetic.argument:main
+calculator = ex_calculator_py.calculator.main:main
+operator = ex_calculator_py.arithmetic.operator:main
 

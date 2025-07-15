@@ -25,6 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'argument = ex_calculator_py.arithmetic.argument:main',
+            'operator = ex_calculator_py.arithmetic.operator:main',
+            'calculator = ex_calculator_py.calculator.main:main',
+            #'checker = ex_calculator.checker.main:main'
         ],
     },
 )
