@@ -1,0 +1,8 @@
+{
+  "package_name": "hangman_interfaces",
+  "non_idl_tuples": [
+    "/home/youngmo/ros2_ws/src/hangman_interfaces:msg/Progress.msg",
+    "/home/youngmo/ros2_ws/src/hangman_interfaces:srv/CheckLetter.srv",
+    "/home/youngmo/ros2_ws/src/hangman_interfaces:action/GameProgress.action"
+  ]
+}

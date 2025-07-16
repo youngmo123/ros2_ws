@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hangman_interfaces__py",
+		"source" : "/home/youngmo/ros2_ws/build/hangman_interfaces/hangman_interfaces__py"
+	}
+}

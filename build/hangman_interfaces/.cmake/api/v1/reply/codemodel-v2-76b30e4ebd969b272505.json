@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b819a17990a68e19e7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "hangman_interfaces__py",
+					"jsonFile" : "directory-hangman_interfaces__py-b54f736c07682a49fade.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/youngmo/ros2_ws/build/hangman_interfaces/hangman_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hangman_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hangman_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hangman_interfaces_egg-1e870df74236f845329b.json",
+					"name" : "ament_cmake_python_build_hangman_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hangman_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hangman_interfaces-f544d61a9835d5e48821.json",
+					"name" : "ament_cmake_python_copy_hangman_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces-2d3655025d0903346d40.json",
+					"name" : "hangman_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__cpp-7d4d38dc64aed925e74d.json",
+					"name" : "hangman_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hangman_interfaces__py::@c9d5c945ddcd4d2c10e8",
+					"jsonFile" : "target-hangman_interfaces__py-1b166adae04cc1ca4f7a.json",
+					"name" : "hangman_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_generator_c-4c872bee2e568e246564.json",
+					"name" : "hangman_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_generator_py-390a4d2b2fd36e90d503.json",
+					"name" : "hangman_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_c-d811cdddef389c35d435.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_c__pyext-9b2c48cbf1ecc3f7125c.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_cpp-6124524bd4a6f9ffa79c.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_fastrtps_c-5b7c39c4b9b1b743dc61.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_fastrtps_c__pyext-3fca0c207071abc5bcf1.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_fastrtps_cpp-3cb882e020268a2e1fda.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_introspection_c-864c848fdc2bb48f6412.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_introspection_c__pyext-6a651ef0a96a69536a77.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces__rosidl_typesupport_introspection_cpp-e3f4fec2a59a4f7f7aa6.json",
+					"name" : "hangman_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_interfaces_uninstall-661fc5310d19afd3c48a.json",
+					"name" : "hangman_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-672abeff14ffda43dbd2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/youngmo/ros2_ws/build/hangman_interfaces",
+		"source" : "/home/youngmo/ros2_ws/src/hangman_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
