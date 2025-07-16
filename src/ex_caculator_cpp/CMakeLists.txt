@@ -12,11 +12,18 @@ find_package(std_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(ros_study_msgs REQUIRED)
 
+# argument 노드 빌드
 add_executable(argument src/arithmetic/argument.cpp)
 ament_target_dependencies(argument rclcpp rcl_interfaces ros_study_msgs)
 
+# operator 노드 빌드
+add_executable(operator src/arithmetic/operator.cpp)
+ament_target_dependencies(operator rclcpp rcl_interfaces ros_study_msgs)
+
+# 설치 단계
 install(TARGETS
   argument
+  operator
   DESTINATION lib/${PROJECT_NAME})
 
 
