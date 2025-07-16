@@ -75,7 +75,7 @@ CMakeFiles/ros_study_msgs: /home/youngmo/ros2_ws/src/ros_study_msgs/srv/Arithmet
 CMakeFiles/ros_study_msgs: rosidl_cmake/srv/ArithmeticOperator_Request.msg
 CMakeFiles/ros_study_msgs: rosidl_cmake/srv/ArithmeticOperator_Response.msg
 CMakeFiles/ros_study_msgs: /home/youngmo/ros2_ws/src/ros_study_msgs/action/MyAction.action
-CMakeFiles/ros_study_msgs: /home/youngmo/ros2_ws/src/ros_study_msgs/action/ArthmeticChecker.action
+CMakeFiles/ros_study_msgs: /home/youngmo/ros2_ws/src/ros_study_msgs/action/ArithmeticChecker.action
 CMakeFiles/ros_study_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/ros_study_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/ros_study_msgs: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl

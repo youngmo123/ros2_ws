@@ -262,14 +262,14 @@ CMakeFiles/ros_study_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/r
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.h \
-  rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__type_support.h \
-  rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__struct.h \
-  rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__functions.h
+  rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__type_support.h \
+  rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__struct.h \
+  rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.h
 
 
-rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__functions.h:
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.h:
 
-rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__type_support.h:
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__type_support.h:
 
 rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.h:
 
@@ -583,6 +583,8 @@ rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c:
 
 /usr/include/python3.10/cellobject.h:
 
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__struct.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -698,8 +700,6 @@ rosidl_generator_c/ros_study_msgs/action/detail/my_action__struct.h:
 /usr/include/python3.10/floatobject.h:
 
 /usr/include/python3.10/pythonrun.h:
-
-rosidl_generator_c/ros_study_msgs/action/detail/arthmetic_checker__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 

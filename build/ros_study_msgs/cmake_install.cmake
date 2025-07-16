@@ -376,7 +376,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArthmeticChecker.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -416,7 +416,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/youngmo/ros2_ws/src/ros_study_msgs/action/ArthmeticChecker.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/youngmo/ros2_ws/src/ros_study_msgs/action/ArithmeticChecker.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

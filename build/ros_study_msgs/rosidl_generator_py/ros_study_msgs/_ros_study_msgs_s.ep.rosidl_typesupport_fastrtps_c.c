@@ -2139,39 +2139,39 @@ _register_action_type__action__my_action(PyObject * pymodule)
 // #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
-#include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
-#include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+#include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
+#include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
+#include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__goal__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__goal__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_Goal__create();
+  return ros_study_msgs__action__ArithmeticChecker_Goal__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__goal__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__goal__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_Goal * ros_message = (ros_study_msgs__action__ArthmeticChecker_Goal *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_Goal__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_Goal * ros_message = (ros_study_msgs__action__ArithmeticChecker_Goal *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_Goal__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__goal__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__goal__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__goal__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__goal__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Goal);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Goal);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__goal(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__goal__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__goal__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2179,7 +2179,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__goal",
+    "create_ros_message_msg__action__arithmetic_checker__goal",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2190,7 +2190,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__goal__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__goal__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2198,7 +2198,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__goal",
+    "destroy_ros_message_msg__action__arithmetic_checker__goal",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2209,7 +2209,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__goal__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__goal__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2217,7 +2217,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__goal",
+    "convert_from_py_msg__action__arithmetic_checker__goal",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2228,7 +2228,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__goal__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__goal__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2236,7 +2236,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__goal",
+    "convert_to_py_msg__action__arithmetic_checker__goal",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2247,7 +2247,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Goal),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Goal),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2255,7 +2255,7 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__goal",
+    "type_support_msg__action__arithmetic_checker__goal",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2279,41 +2279,41 @@ _register_msg_type__action__arthmetic_checker__goal(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__result__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__result__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_Result__create();
+  return ros_study_msgs__action__ArithmeticChecker_Result__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__result__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__result__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_Result * ros_message = (ros_study_msgs__action__ArthmeticChecker_Result *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_Result__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_Result * ros_message = (ros_study_msgs__action__ArithmeticChecker_Result *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_Result__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__result__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__result__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__result__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__result__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Result);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Result);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__result(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__result__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__result__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2321,7 +2321,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__result",
+    "create_ros_message_msg__action__arithmetic_checker__result",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2332,7 +2332,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__result__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__result__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2340,7 +2340,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__result",
+    "destroy_ros_message_msg__action__arithmetic_checker__result",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2351,7 +2351,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__result__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__result__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2359,7 +2359,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__result",
+    "convert_from_py_msg__action__arithmetic_checker__result",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2370,7 +2370,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__result__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__result__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2378,7 +2378,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__result",
+    "convert_to_py_msg__action__arithmetic_checker__result",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2389,7 +2389,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Result),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Result),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2397,7 +2397,7 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__result",
+    "type_support_msg__action__arithmetic_checker__result",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2421,41 +2421,41 @@ _register_msg_type__action__arthmetic_checker__result(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__feedback__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__feedback__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_Feedback__create();
+  return ros_study_msgs__action__ArithmeticChecker_Feedback__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__feedback__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__feedback__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_Feedback * ros_message = (ros_study_msgs__action__ArthmeticChecker_Feedback *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_Feedback__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_Feedback * ros_message = (ros_study_msgs__action__ArithmeticChecker_Feedback *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_Feedback__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__feedback__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__feedback__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__feedback__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__feedback__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Feedback);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Feedback);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__feedback(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2463,7 +2463,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__feedback",
+    "create_ros_message_msg__action__arithmetic_checker__feedback",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2474,7 +2474,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2482,7 +2482,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__feedback",
+    "destroy_ros_message_msg__action__arithmetic_checker__feedback",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2493,7 +2493,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2501,7 +2501,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__feedback",
+    "convert_from_py_msg__action__arithmetic_checker__feedback",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2512,7 +2512,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2520,7 +2520,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__feedback",
+    "convert_to_py_msg__action__arithmetic_checker__feedback",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2531,7 +2531,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_Feedback),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_Feedback),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2539,7 +2539,7 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__feedback",
+    "type_support_msg__action__arithmetic_checker__feedback",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2563,41 +2563,41 @@ _register_msg_type__action__arthmetic_checker__feedback(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__send_goal__request__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__send_goal__request__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_SendGoal_Request__create();
+  return ros_study_msgs__action__ArithmeticChecker_SendGoal_Request__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__send_goal__request__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__send_goal__request__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_SendGoal_Request * ros_message = (ros_study_msgs__action__ArthmeticChecker_SendGoal_Request *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_SendGoal_Request__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_SendGoal_Request * ros_message = (ros_study_msgs__action__ArithmeticChecker_SendGoal_Request *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_SendGoal_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__send_goal__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__send_goal__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__send_goal__request__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__send_goal__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_SendGoal_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_SendGoal_Request);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__send_goal__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__request__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2605,7 +2605,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__send_goal__request",
+    "create_ros_message_msg__action__arithmetic_checker__send_goal__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2616,7 +2616,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__request__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2624,7 +2624,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__send_goal__request",
+    "destroy_ros_message_msg__action__arithmetic_checker__send_goal__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2635,7 +2635,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__request__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2643,7 +2643,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__send_goal__request",
+    "convert_from_py_msg__action__arithmetic_checker__send_goal__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2654,7 +2654,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__request__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2662,7 +2662,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__send_goal__request",
+    "convert_to_py_msg__action__arithmetic_checker__send_goal__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2673,7 +2673,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_SendGoal_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_SendGoal_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2681,7 +2681,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__send_goal__request",
+    "type_support_msg__action__arithmetic_checker__send_goal__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2705,41 +2705,41 @@ _register_msg_type__action__arthmetic_checker__send_goal__request(PyObject * pym
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__send_goal__response__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__send_goal__response__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_SendGoal_Response__create();
+  return ros_study_msgs__action__ArithmeticChecker_SendGoal_Response__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__send_goal__response__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__send_goal__response__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_SendGoal_Response * ros_message = (ros_study_msgs__action__ArthmeticChecker_SendGoal_Response *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_SendGoal_Response__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_SendGoal_Response * ros_message = (ros_study_msgs__action__ArithmeticChecker_SendGoal_Response *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_SendGoal_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__send_goal__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__send_goal__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__send_goal__response__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__send_goal__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_SendGoal_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_SendGoal_Response);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__send_goal__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__response__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2747,7 +2747,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__send_goal__response",
+    "create_ros_message_msg__action__arithmetic_checker__send_goal__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2758,7 +2758,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__response__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2766,7 +2766,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__send_goal__response",
+    "destroy_ros_message_msg__action__arithmetic_checker__send_goal__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2777,7 +2777,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__response__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2785,7 +2785,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__send_goal__response",
+    "convert_from_py_msg__action__arithmetic_checker__send_goal__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2796,7 +2796,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__send_goal__response__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__send_goal__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2804,7 +2804,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__send_goal__response",
+    "convert_to_py_msg__action__arithmetic_checker__send_goal__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2815,7 +2815,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_SendGoal_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_SendGoal_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2823,7 +2823,7 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__send_goal__response",
+    "type_support_msg__action__arithmetic_checker__send_goal__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2836,15 +2836,15 @@ _register_msg_type__action__arthmetic_checker__send_goal__response(PyObject * py
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArthmeticChecker_SendGoal)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArithmeticChecker_SendGoal)();
 
 int8_t
-_register_srv_type__action__arthmetic_checker__send_goal(PyObject * pymodule)
+_register_srv_type__action__arithmetic_checker__send_goal(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArthmeticChecker_SendGoal)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArithmeticChecker_SendGoal)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2852,7 +2852,7 @@ _register_srv_type__action__arthmetic_checker__send_goal(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__action__arthmetic_checker__send_goal",
+    "type_support_srv__action__arithmetic_checker__send_goal",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -2876,41 +2876,41 @@ _register_srv_type__action__arthmetic_checker__send_goal(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__get_result__request__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__get_result__request__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_GetResult_Request__create();
+  return ros_study_msgs__action__ArithmeticChecker_GetResult_Request__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__get_result__request__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__get_result__request__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_GetResult_Request * ros_message = (ros_study_msgs__action__ArthmeticChecker_GetResult_Request *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_GetResult_Request__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_GetResult_Request * ros_message = (ros_study_msgs__action__ArithmeticChecker_GetResult_Request *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_GetResult_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__get_result__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__get_result__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__get_result__request__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__get_result__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_GetResult_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_GetResult_Request);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__get_result__request(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__get_result__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__request__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2918,7 +2918,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__get_result__request",
+    "create_ros_message_msg__action__arithmetic_checker__get_result__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2929,7 +2929,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__request__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -2937,7 +2937,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__get_result__request",
+    "destroy_ros_message_msg__action__arithmetic_checker__get_result__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -2948,7 +2948,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__request__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2956,7 +2956,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__get_result__request",
+    "convert_from_py_msg__action__arithmetic_checker__get_result__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2967,7 +2967,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__request__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -2975,7 +2975,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__get_result__request",
+    "convert_to_py_msg__action__arithmetic_checker__get_result__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -2986,7 +2986,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_GetResult_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_GetResult_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -2994,7 +2994,7 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__get_result__request",
+    "type_support_msg__action__arithmetic_checker__get_result__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -3018,41 +3018,41 @@ _register_msg_type__action__arthmetic_checker__get_result__request(PyObject * py
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__get_result__response__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__get_result__response__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_GetResult_Response__create();
+  return ros_study_msgs__action__ArithmeticChecker_GetResult_Response__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__get_result__response__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__get_result__response__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_GetResult_Response * ros_message = (ros_study_msgs__action__ArthmeticChecker_GetResult_Response *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_GetResult_Response__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_GetResult_Response * ros_message = (ros_study_msgs__action__ArithmeticChecker_GetResult_Response *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_GetResult_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__get_result__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__get_result__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__get_result__response__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__get_result__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_GetResult_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_GetResult_Response);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__get_result__response(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__get_result__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__response__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -3060,7 +3060,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__get_result__response",
+    "create_ros_message_msg__action__arithmetic_checker__get_result__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -3071,7 +3071,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__response__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -3079,7 +3079,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__get_result__response",
+    "destroy_ros_message_msg__action__arithmetic_checker__get_result__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -3090,7 +3090,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__response__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -3098,7 +3098,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__get_result__response",
+    "convert_from_py_msg__action__arithmetic_checker__get_result__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -3109,7 +3109,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__get_result__response__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__get_result__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -3117,7 +3117,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__get_result__response",
+    "convert_to_py_msg__action__arithmetic_checker__get_result__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -3128,7 +3128,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_GetResult_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_GetResult_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -3136,7 +3136,7 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__get_result__response",
+    "type_support_msg__action__arithmetic_checker__get_result__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -3149,15 +3149,15 @@ _register_msg_type__action__arthmetic_checker__get_result__response(PyObject * p
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArthmeticChecker_GetResult)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArithmeticChecker_GetResult)();
 
 int8_t
-_register_srv_type__action__arthmetic_checker__get_result(PyObject * pymodule)
+_register_srv_type__action__arithmetic_checker__get_result(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArthmeticChecker_GetResult)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArithmeticChecker_GetResult)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -3165,7 +3165,7 @@ _register_srv_type__action__arthmetic_checker__get_result(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__action__arthmetic_checker__get_result",
+    "type_support_srv__action__arithmetic_checker__get_result",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -3189,41 +3189,41 @@ _register_srv_type__action__arthmetic_checker__get_result(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__type_support.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__type_support.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__struct.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__struct.h"
 // already included above
-// #include "ros_study_msgs/action/detail/arthmetic_checker__functions.h"
+// #include "ros_study_msgs/action/detail/arithmetic_checker__functions.h"
 
-static void * ros_study_msgs__action__arthmetic_checker__feedback_message__create_ros_message(void)
+static void * ros_study_msgs__action__arithmetic_checker__feedback_message__create_ros_message(void)
 {
-  return ros_study_msgs__action__ArthmeticChecker_FeedbackMessage__create();
+  return ros_study_msgs__action__ArithmeticChecker_FeedbackMessage__create();
 }
 
-static void ros_study_msgs__action__arthmetic_checker__feedback_message__destroy_ros_message(void * raw_ros_message)
+static void ros_study_msgs__action__arithmetic_checker__feedback_message__destroy_ros_message(void * raw_ros_message)
 {
-  ros_study_msgs__action__ArthmeticChecker_FeedbackMessage * ros_message = (ros_study_msgs__action__ArthmeticChecker_FeedbackMessage *)raw_ros_message;
-  ros_study_msgs__action__ArthmeticChecker_FeedbackMessage__destroy(ros_message);
+  ros_study_msgs__action__ArithmeticChecker_FeedbackMessage * ros_message = (ros_study_msgs__action__ArithmeticChecker_FeedbackMessage *)raw_ros_message;
+  ros_study_msgs__action__ArithmeticChecker_FeedbackMessage__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool ros_study_msgs__action__arthmetic_checker__feedback_message__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool ros_study_msgs__action__arithmetic_checker__feedback_message__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * ros_study_msgs__action__arthmetic_checker__feedback_message__convert_to_py(void * raw_ros_message);
+PyObject * ros_study_msgs__action__arithmetic_checker__feedback_message__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_FeedbackMessage);
+ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_FeedbackMessage);
 
 int8_t
-_register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymodule)
+_register_msg_type__action__arithmetic_checker__feedback_message(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback_message__create_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback_message__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -3231,7 +3231,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__action__arthmetic_checker__feedback_message",
+    "create_ros_message_msg__action__arithmetic_checker__feedback_message",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -3242,7 +3242,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback_message__destroy_ros_message,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback_message__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -3250,7 +3250,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__action__arthmetic_checker__feedback_message",
+    "destroy_ros_message_msg__action__arithmetic_checker__feedback_message",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -3261,7 +3261,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback_message__convert_from_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback_message__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -3269,7 +3269,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__action__arthmetic_checker__feedback_message",
+    "convert_from_py_msg__action__arithmetic_checker__feedback_message",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -3280,7 +3280,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&ros_study_msgs__action__arthmetic_checker__feedback_message__convert_to_py,
+    (void *)&ros_study_msgs__action__arithmetic_checker__feedback_message__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -3288,7 +3288,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__action__arthmetic_checker__feedback_message",
+    "convert_to_py_msg__action__arithmetic_checker__feedback_message",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -3299,7 +3299,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArthmeticChecker_FeedbackMessage),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(ros_study_msgs, action, ArithmeticChecker_FeedbackMessage),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -3307,7 +3307,7 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__action__arthmetic_checker__feedback_message",
+    "type_support_msg__action__arithmetic_checker__feedback_message",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -3320,12 +3320,12 @@ _register_msg_type__action__arthmetic_checker__feedback_message(PyObject * pymod
 
 
 int8_t
-_register_action_type__action__arthmetic_checker(PyObject * pymodule)
+_register_action_type__action__arithmetic_checker(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__ACTION_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArthmeticChecker)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__ACTION_SYMBOL_NAME(rosidl_typesupport_c, ros_study_msgs, action, ArithmeticChecker)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -3333,7 +3333,7 @@ _register_action_type__action__arthmetic_checker(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_action__action__arthmetic_checker",
+    "type_support_action__action__arithmetic_checker",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -3468,67 +3468,67 @@ PyInit_ros_study_msgs_s__rosidl_typesupport_fastrtps_c(void)
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__goal(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__goal(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__result(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__result(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__feedback(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__feedback(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__send_goal__request(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__send_goal__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__send_goal__response(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__send_goal__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__action__arthmetic_checker__send_goal(pymodule);
+  err = _register_srv_type__action__arithmetic_checker__send_goal(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__get_result__request(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__get_result__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__get_result__response(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__get_result__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__action__arthmetic_checker__get_result(pymodule);
+  err = _register_srv_type__action__arithmetic_checker__get_result(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__action__arthmetic_checker__feedback_message(pymodule);
+  err = _register_msg_type__action__arithmetic_checker__feedback_message(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_action_type__action__arthmetic_checker(pymodule);
+  err = _register_action_type__action__arithmetic_checker(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

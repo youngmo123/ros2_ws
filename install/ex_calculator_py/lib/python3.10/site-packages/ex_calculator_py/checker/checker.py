@@ -1,5 +1,5 @@
 from action_msgs.msg import GoalStatus
-from ros_study_msgs.action import ArthmeticChecker
+from ros_study_msgs.action import ArithmeticChecker
 from rclpy.action import ActionClient
 from rclpy.node import Node
 
@@ -10,7 +10,7 @@ class Checker(Node):
         super().__init__('checker')
         self.arithmetic_action_client = ActionClient(
           self,
-          ArthmeticChecker,
+          ArithmeticChecker,
           'arithmetic_checker')
 
     def send_goal_total_sum(self, goal_sum):
@@ -20,7 +20,7 @@ class Checker(Node):
                 self.get_logger().warning('Arithmetic action server is not available.')
                 return False
             wait_count += 1
-        goal_msg = ArthmeticChecker.Goal()
+        goal_msg = ArithmeticChecker.Goal()
         goal_msg.goal_sum = (float)(goal_sum)
         self.send_goal_future = self.arithmetic_action_client.send_goal_async(
             goal_msg,

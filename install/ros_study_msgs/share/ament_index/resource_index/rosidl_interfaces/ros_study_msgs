@@ -1,5 +1,5 @@
-action/ArthmeticChecker.action
-action/ArthmeticChecker.idl
+action/ArithmeticChecker.action
+action/ArithmeticChecker.idl
 action/MyAction.action
 action/MyAction.idl
 msg/ArithmeticArgument.idl

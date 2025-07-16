@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_arthmetic_checker_s.c.o"
-  "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_arthmetic_checker_s.c.o.d"
+  "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c.o"
+  "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c.o.d"
   "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_my_action_s.c.o"
   "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_my_action_s.c.o.d"
   "CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument_s.c.o"

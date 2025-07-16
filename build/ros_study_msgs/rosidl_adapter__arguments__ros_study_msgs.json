@@ -6,6 +6,6 @@
     "/home/youngmo/ros2_ws/src/ros_study_msgs:srv/MySrv.srv",
     "/home/youngmo/ros2_ws/src/ros_study_msgs:srv/ArithmeticOperator.srv",
     "/home/youngmo/ros2_ws/src/ros_study_msgs:action/MyAction.action",
-    "/home/youngmo/ros2_ws/src/ros_study_msgs:action/ArthmeticChecker.action"
+    "/home/youngmo/ros2_ws/src/ros_study_msgs:action/ArithmeticChecker.action"
   ]
 }

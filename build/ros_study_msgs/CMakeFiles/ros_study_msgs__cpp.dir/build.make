@@ -91,11 +91,11 @@ CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detai
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__struct.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__type_support.hpp
-CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arthmetic_checker.hpp
-CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__builder.hpp
-CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__struct.hpp
-CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__traits.hpp
-CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__type_support.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__type_support.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -118,7 +118,7 @@ rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msg
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/srv/MySrv.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/action/MyAction.idl
-rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/action/ArthmeticChecker.idl
+rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -201,27 +201,27 @@ rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp: rosidl_
 rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__type_support.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__type_support.hpp
 
-rosidl_generator_cpp/ros_study_msgs/action/arthmetic_checker.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/arthmetic_checker.hpp
+rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
 
-rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__builder.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__builder.hpp
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
 
-rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__struct.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__struct.hpp
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
 
-rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__traits.hpp
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
 
-rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__type_support.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__type_support.hpp
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__type_support.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__type_support.hpp
 
 ros_study_msgs__cpp: CMakeFiles/ros_study_msgs__cpp
-ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arthmetic_checker.hpp
-ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__builder.hpp
-ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__struct.hpp
-ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__traits.hpp
-ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arthmetic_checker__type_support.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__type_support.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__builder.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__struct.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp

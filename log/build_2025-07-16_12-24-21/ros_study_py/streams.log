@@ -1,0 +1,57 @@
+[0.483s] Invoking command in '/home/youngmo/ros2_ws/src/ros_study_py': PYTHONPATH=/home/youngmo/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/youngmo/ros2_ws/build/ros_study_py/build install --record /home/youngmo/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.677s] creating ../../build/ros_study_py/ros_study_py.egg-info
+[0.683s] writing ../../build/ros_study_py/ros_study_py.egg-info/PKG-INFO
+[0.683s] writing dependency_links to ../../build/ros_study_py/ros_study_py.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/ros_study_py/ros_study_py.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/ros_study_py/ros_study_py.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/ros_study_py/ros_study_py.egg-info/top_level.txt
+[0.684s] writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+[0.684s] reading manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+[0.684s] writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+[0.684s] running build
+[0.684s] running build_py
+[0.684s] creating /home/youngmo/ros2_ws/build/ros_study_py/build
+[0.685s] creating /home/youngmo/ros2_ws/build/ros_study_py/build/lib
+[0.685s] creating /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_msg_test.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_msg_subscriber.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_action_server.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/__init__.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_service_client.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_service_server.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] copying ros_study_py/my_action_client.py -> /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.685s] running install
+[0.689s] running install_lib
+[0.689s] creating /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_test.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_subscriber.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_action_server.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/__init__.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_service_client.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_service_server.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] copying /home/youngmo/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_action_client.py -> /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.689s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_test.py to my_msg_test.cpython-310.pyc
+[0.689s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_subscriber.py to my_msg_subscriber.cpython-310.pyc
+[0.690s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_action_server.py to my_action_server.cpython-310.pyc
+[0.690s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__init__.py to __init__.cpython-310.pyc
+[0.690s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_service_client.py to my_service_client.cpython-310.pyc
+[0.695s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_service_server.py to my_service_server.cpython-310.pyc
+[0.695s] byte-compiling /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_action_client.py to my_action_client.cpython-310.pyc
+[0.695s] running install_data
+[0.695s] creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index
+[0.695s] creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index
+[0.695s] creating /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages
+[0.695s] copying resource/ros_study_py -> /home/youngmo/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages
+[0.695s] copying package.xml -> /home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py
+[0.695s] running install_egg_info
+[0.695s] Copying ../../build/ros_study_py/ros_study_py.egg-info to /home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.711s] Installing my_action_client script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] Installing my_action_server script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] Installing my_msg_subscriber script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] Installing my_msg_test script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] Installing my_service_client script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] Installing my_service_server script to /home/youngmo/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.711s] writing list of installed files to '/home/youngmo/ros2_ws/build/ros_study_py/install.log'
+[0.730s] Invoked command in '/home/youngmo/ros2_ws/src/ros_study_py' returned '0': PYTHONPATH=/home/youngmo/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/youngmo/ros2_ws/build/ros_study_py/build install --record /home/youngmo/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data

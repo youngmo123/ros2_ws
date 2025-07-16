@@ -19,7 +19,7 @@ set(srv_files
 "srv/ArithmeticOperator.srv")
 set(action_files 
 "action/MyAction.action" 
-"action/ArthmeticChecker.action")
+"action/ArithmeticChecker.action")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

@@ -1,6 +1,6 @@
 import time
 
-from ros_study_msgs.action import ArthmeticChecker
+from ros_study_msgs.action import ArithmeticChecker
 from ros_study_msgs.msg import ArithmeticArgument
 from ros_study_msgs.srv import ArithmeticOperator
 from rclpy.action import ActionServer
@@ -68,7 +68,7 @@ class Calculator(Node):
 
         self.arithmetic_action_server = ActionServer(
             self,
-            ArthmeticChecker,
+            ArithmeticChecker,
             'arithmetic_checker',
             self.execute_checker,
             callback_group=self.callback_group)
@@ -119,7 +119,7 @@ class Calculator(Node):
 
     def execute_checker(self, goal_handle):
         self.get_logger().info('Execute arithmetic_checker action!')
-        feedback_msg = ArthmeticChecker.Feedback()
+        feedback_msg = ArithmeticChecker.Feedback()
         feedback_msg.formula = []
         total_sum = 0.0
         goal_sum = goal_handle.request.goal_sum
@@ -130,7 +130,7 @@ class Calculator(Node):
             goal_handle.publish_feedback(feedback_msg)
             time.sleep(1)
         goal_handle.succeed()
-        result = ArthmeticChecker.Result()
+        result = ArithmeticChecker.Result()
         result.all_formula = feedback_msg.formula
         result.total_sum = total_sum
         return result

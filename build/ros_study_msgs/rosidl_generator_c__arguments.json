@@ -8,7 +8,7 @@
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/MySrv.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/ArithmeticOperator.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/MyAction.idl",
-    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/ArthmeticChecker.idl"
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/ArithmeticChecker.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -38,7 +38,7 @@
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/MySrv.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl",
     "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/MyAction.idl",
-    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArthmeticChecker.idl",
+    "/home/youngmo/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
