@@ -10,7 +10,26 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(hangman_interfaces REQUIRED)
-find_package(std_msgs REQUIRED)
+
+set(EXECUTABLES
+  letter_publisher
+  progress_action_client
+  progress_action_server
+  user_input
+  word_service
+)
+
+foreach(target ${EXECUTABLES})
+  add_executable(${target} src/${target}.cpp)
+
+  ament_target_dependencies(${target} rclcpp rclcpp_action std_msgs hangman_interfaces)
+
+  install(TARGETS
+    ${target}
+    DESTINATION lib/${PROJECT_NAME}
+  )
+endforeach()
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,538 @@
+[0.154s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.154s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7830f0b90910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7830f0d5a0b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7830f0d5a0b0>>)
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.279s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/youngmo/ros2_ws'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_excalculator) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_excalculator' with type 'ros.ament_cmake' and name 'cpp_excalculator'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex_calculator_py) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ex_calculator_py' with type 'ros.ament_python' and name 'ex_calculator_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hangman_game' with type 'ros.ament_python' and name 'hangman_game'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_game_cpp) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hangman_game_cpp' with type 'ros.ament_cmake' and name 'hangman_game_cpp'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/hangman_interfaces) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hangman_interfaces' with type 'ros.ament_cmake' and name 'hangman_interfaces'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_cpp) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_study_cpp' with type 'ros.ament_cmake' and name 'ros_study_cpp'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_msgs) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_study_msgs' with type 'ros.ament_cmake' and name 'ros_study_msgs'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_study_py) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_study_py' with type 'ros.ament_python' and name 'ros_study_py'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/youngmo/ros2_ws/install
+[0.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'hangman_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'hangman_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/hangman_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/hangman_interfaces', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/hangman_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ros_study_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'ros_study_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/ros_study_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/ros_study_msgs', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/ros_study_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'cpp_excalculator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_excalculator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/cpp_excalculator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/cpp_excalculator', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/cpp_excalculator', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'ex_calculator_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'ex_calculator_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/ex_calculator_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/ex_calculator_py', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/ex_calculator_py', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'hangman_game' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/hangman_game', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/hangman_game', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/hangman_game', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'hangman_game_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'hangman_game_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/hangman_game_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/hangman_game_cpp', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/hangman_game_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'ros_study_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/ros_study_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/ros_study_cpp', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/ros_study_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'ros_study_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'ros_study_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youngmo/ros2_ws/build/ros_study_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youngmo/ros2_ws/install/ros_study_py', 'merge_install': False, 'path': '/home/youngmo/ros2_ws/src/ros_study_py', 'symlink_install': False, 'test_result_base': None}
+[0.331s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youngmo/ros2_ws/src/ros_study_msgs' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youngmo/ros2_ws/src/ros_study_msgs'
+[0.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youngmo/ros2_ws/src/hangman_interfaces' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youngmo/ros2_ws/src/hangman_interfaces'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/hangman_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/hangman_interfaces -- -j16 -l16
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/ros_study_msgs -- -j16 -l16
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/hangman_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/hangman_interfaces -- -j16 -l16
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/hangman_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/hangman_interfaces
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/ros_study_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/ros_study_msgs -- -j16 -l16
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/ros_study_msgs
+[0.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hangman_interfaces)
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/hangman_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/hangman_interfaces
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces' for CMake module files
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces' for CMake config files
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_interfaces', 'cmake_prefix_path')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.sh'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib'
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_interfaces', 'ld_library_path_lib')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.dsv'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/bin'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib/pkgconfig/hangman_interfaces.pc'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib/python3.10/site-packages'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/bin'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.bash'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/hangman_interfaces/share/colcon-core/packages/hangman_interfaces)
+[0.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hangman_interfaces)
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces' for CMake module files
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces' for CMake config files
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_interfaces', 'cmake_prefix_path')
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/cmake_prefix_path.sh'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib'
+[0.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_interfaces', 'ld_library_path_lib')
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/hook/ld_library_path_lib.sh'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/bin'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib/pkgconfig/hangman_interfaces.pc'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/lib/python3.10/site-packages'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_interfaces/bin'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.sh'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.bash'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/package.zsh'
+[0.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/hangman_interfaces/share/colcon-core/packages/hangman_interfaces)
+[0.654s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youngmo/ros2_ws/src/hangman_game' with build type 'ament_python'
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_game', 'ament_prefix_path')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/ament_prefix_path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/ament_prefix_path.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/ament_prefix_path.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youngmo/ros2_ws/src/hangman_game_cpp' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youngmo/ros2_ws/src/hangman_game_cpp'
+[0.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_study_msgs)
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs' for CMake module files
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/ros_study_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/ros_study_msgs
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs' for CMake config files
+[0.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_msgs', 'cmake_prefix_path')
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib'
+[0.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_msgs', 'ld_library_path_lib')
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.sh'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/bin'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib/pkgconfig/ros_study_msgs.pc'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib/python3.10/site-packages'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/bin'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.bash'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.zsh'
+[0.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ros_study_msgs/share/colcon-core/packages/ros_study_msgs)
+[0.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_study_msgs)
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs' for CMake module files
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs' for CMake config files
+[0.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_msgs', 'cmake_prefix_path')
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.ps1'
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.dsv'
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/cmake_prefix_path.sh'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib'
+[0.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_msgs', 'ld_library_path_lib')
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.ps1'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/hook/ld_library_path_lib.sh'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/bin'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib/pkgconfig/ros_study_msgs.pc'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/lib/python3.10/site-packages'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_msgs/bin'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.sh'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.bash'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.zsh'
+[0.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ros_study_msgs/share/colcon-core/packages/ros_study_msgs)
+[0.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youngmo/ros2_ws/src/cpp_excalculator' with build type 'ament_cmake'
+[0.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youngmo/ros2_ws/src/cpp_excalculator'
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youngmo/ros2_ws/src/ex_calculator_py' with build type 'ament_python'
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_calculator_py', 'ament_prefix_path')
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/ament_prefix_path.ps1'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/ament_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/ament_prefix_path.sh'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youngmo/ros2_ws/src/ros_study_cpp' with build type 'ament_cmake'
+[0.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youngmo/ros2_ws/src/ros_study_cpp'
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.674s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youngmo/ros2_ws/src/ros_study_py' with build type 'ament_python'
+[0.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_py', 'ament_prefix_path')
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/ament_prefix_path.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/ament_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/ament_prefix_path.sh'
+[0.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/hangman_game_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/youngmo/ros2_ws/src/hangman_game_cpp -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/hangman_game_cpp
+[0.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youngmo/ros2_ws/src/hangman_game'
+[0.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/cpp_excalculator': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/cpp_excalculator -- -j16 -l16
+[0.933s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youngmo/ros2_ws/src/ex_calculator_py'
+[0.933s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/ros_study_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/ros_study_cpp -- -j16 -l16
+[1.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youngmo/ros2_ws/src/ros_study_py'
+[1.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/cpp_excalculator' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/cpp_excalculator -- -j16 -l16
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/cpp_excalculator': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/cpp_excalculator
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/ros_study_cpp' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --build /home/youngmo/ros2_ws/build/ros_study_cpp -- -j16 -l16
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/build/ros_study_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/ros_study_cpp
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_excalculator)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator' for CMake module files
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/cpp_excalculator' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/cpp_excalculator
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_excalculator', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib/pkgconfig/cpp_excalculator.pc'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib/python3.10/site-packages'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/bin'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.zsh'
+[1.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/cpp_excalculator/share/colcon-core/packages/cpp_excalculator)
+[1.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_excalculator)
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator' for CMake config files
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_excalculator', 'cmake_prefix_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/hook/cmake_prefix_path.sh'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/bin'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib/pkgconfig/cpp_excalculator.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/lib/python3.10/site-packages'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/cpp_excalculator/bin'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.dsv'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.sh'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.bash'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/cpp_excalculator/share/cpp_excalculator/package.zsh'
+[1.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/cpp_excalculator/share/colcon-core/packages/cpp_excalculator)
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_study_cpp)
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/ros_study_cpp' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble /usr/bin/cmake --install /home/youngmo/ros2_ws/build/ros_study_cpp
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp' for CMake module files
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp' for CMake config files
+[1.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_cpp', 'cmake_prefix_path')
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.sh'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/bin'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib/pkgconfig/ros_study_cpp.pc'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib/python3.10/site-packages'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/bin'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.bash'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.zsh'
+[1.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ros_study_cpp/share/colcon-core/packages/ros_study_cpp)
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_study_cpp)
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp' for CMake module files
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp' for CMake config files
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_cpp', 'cmake_prefix_path')
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/hook/cmake_prefix_path.sh'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/bin'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib/pkgconfig/ros_study_cpp.pc'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/lib/python3.10/site-packages'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_cpp/bin'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_cpp/share/ros_study_cpp/package.zsh'
+[1.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ros_study_cpp/share/colcon-core/packages/ros_study_cpp)
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/src/ex_calculator_py': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[1.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/src/ros_study_py': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/youngmo/ros2_ws/build/ros_study_py/build install --record /home/youngmo/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youngmo/ros2_ws/src/hangman_game': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/youngmo/ros2_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hangman_game build --build-base /home/youngmo/ros2_ws/build/hangman_game/build install --record /home/youngmo/ros2_ws/build/hangman_game/install.log --single-version-externally-managed install_data
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py' for CMake module files
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/src/ex_calculator_py' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py' for CMake config files
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py/lib'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py/bin'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py/lib/pkgconfig/ex_calculator_py.pc'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages'
+[1.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex_calculator_py', 'pythonpath')
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/pythonpath.ps1'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/pythonpath.dsv'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/hook/pythonpath.sh'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ex_calculator_py/bin'
+[1.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex_calculator_py)
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/package.sh'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/package.bash'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ex_calculator_py/share/ex_calculator_py/package.zsh'
+[1.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ex_calculator_py/share/colcon-core/packages/ex_calculator_py)
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py' for CMake module files
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py' for CMake config files
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/src/ros_study_py' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/youngmo/ros2_ws/build/ros_study_py/build install --record /home/youngmo/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py/lib'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py/bin'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py/lib/pkgconfig/ros_study_py.pc'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py/lib/python3.10/site-packages'
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_study_py', 'pythonpath')
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/pythonpath.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/pythonpath.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/hook/pythonpath.sh'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/ros_study_py/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_study_py)
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.sh'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/ros_study_py/share/ros_study_py/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/ros_study_py/share/colcon-core/packages/ros_study_py)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game' for CMake module files
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/src/hangman_game' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/youngmo/ros2_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hangman_game build --build-base /home/youngmo/ros2_ws/build/hangman_game/build install --record /home/youngmo/ros2_ws/build/hangman_game/install.log --single-version-externally-managed install_data
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game' for CMake config files
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game/lib'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game/lib/pkgconfig/hangman_game.pc'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages'
+[1.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('hangman_game', 'pythonpath')
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/pythonpath.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/pythonpath.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/hook/pythonpath.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game/bin'
+[1.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hangman_game)
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/package.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/package.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/package.sh'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/package.bash'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game/share/hangman_game/package.zsh'
+[1.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/hangman_game/share/colcon-core/packages/hangman_game)
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youngmo/ros2_ws/build/hangman_game_cpp' returned '1': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/youngmo/ros2_ws/src/hangman_game_cpp -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/hangman_game_cpp
+[1.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hangman_game_cpp)
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp' for CMake module files
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp' for CMake config files
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp/bin'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp/lib/pkgconfig/hangman_game_cpp.pc'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp/lib/python3.10/site-packages'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/youngmo/ros2_ws/install/hangman_game_cpp/bin'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.dsv'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.sh'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.bash'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.zsh'
+[1.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youngmo/ros2_ws/install/hangman_game_cpp/share/colcon-core/packages/hangman_game_cpp)
+[1.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.945s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.945s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.945s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.967s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youngmo/ros2_ws/install/local_setup.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youngmo/ros2_ws/install/_local_setup_util_ps1.py'
+[1.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youngmo/ros2_ws/install/setup.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youngmo/ros2_ws/install/local_setup.sh'
+[1.973s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youngmo/ros2_ws/install/_local_setup_util_sh.py'
+[1.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youngmo/ros2_ws/install/setup.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youngmo/ros2_ws/install/local_setup.bash'
+[1.975s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youngmo/ros2_ws/install/setup.bash'
+[1.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youngmo/ros2_ws/install/local_setup.zsh'
+[1.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youngmo/ros2_ws/install/setup.zsh'

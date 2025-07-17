@@ -1,0 +1,50 @@
+[0.254s] Invoking command in '/home/youngmo/ros2_ws/build/hangman_game_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/youngmo/ros2_ws/src/hangman_game_cpp -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/hangman_game_cpp
+[0.282s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.407s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.419s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.483s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.483s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.650s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.676s] -- Found hangman_interfaces: 0.0.0 (/home/youngmo/ros2_ws/install/hangman_interfaces/share/hangman_interfaces/cmake)
+[0.695s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.776s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.776s] -- Configured cppcheck include dirs: 
+[0.777s] -- Configured cppcheck exclude dirs and/or files: 
+[0.777s] -- Added test 'lint_cmake' to check CMake code style
+[0.777s] -- Added test 'uncrustify' to check C / C++ code style
+[0.777s] -- Configured uncrustify additional arguments: 
+[0.777s] -- Added test 'xmllint' to check XML markup files
+[0.778s] -- Configuring done
+[0.787s] -- Generating done
+[0.794s] -- Build files have been written to: /home/youngmo/ros2_ws/build/hangman_game_cpp
+[0.802s] Invoked command in '/home/youngmo/ros2_ws/build/hangman_game_cpp' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/youngmo/ros2_ws/src/hangman_game_cpp -DCMAKE_INSTALL_PREFIX=/home/youngmo/ros2_ws/install/hangman_game_cpp
+[0.808s] Invoking command in '/home/youngmo/ros2_ws/build/hangman_game_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/youngmo/ros2_ws/build/hangman_game_cpp -- -j16 -l16
+[0.855s] [ 50%] [32mBuilding CXX object CMakeFiles/letter_publisher.dir/src/letter_publisher.cpp.o[0m
+[4.855s] [100%] [32m[1mLinking CXX executable letter_publisher[0m
+[5.086s] [100%] Built target letter_publisher
+[5.099s] Invoked command in '/home/youngmo/ros2_ws/build/hangman_game_cpp' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/youngmo/ros2_ws/build/hangman_game_cpp -- -j16 -l16
+[5.100s] Invoking command in '/home/youngmo/ros2_ws/build/hangman_game_cpp': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/youngmo/ros2_ws/build/hangman_game_cpp
+[5.107s] -- Install configuration: ""
+[5.107s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/lib/hangman_game_cpp/letter_publisher
+[5.108s] -- Set runtime path of "/home/youngmo/ros2_ws/install/hangman_game_cpp/lib/hangman_game_cpp/letter_publisher" to ""
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/ament_index/resource_index/package_run_dependencies/hangman_game_cpp
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/ament_index/resource_index/parent_prefix_path/hangman_game_cpp
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/environment/ament_prefix_path.sh
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/environment/ament_prefix_path.dsv
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/environment/path.sh
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/environment/path.dsv
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/local_setup.bash
+[5.108s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/local_setup.sh
+[5.111s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/local_setup.zsh
+[5.111s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/local_setup.dsv
+[5.112s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.dsv
+[5.112s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/ament_index/resource_index/packages/hangman_game_cpp
+[5.112s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/cmake/hangman_game_cppConfig.cmake
+[5.112s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/cmake/hangman_game_cppConfig-version.cmake
+[5.112s] -- Installing: /home/youngmo/ros2_ws/install/hangman_game_cpp/share/hangman_game_cpp/package.xml
+[5.112s] Invoked command in '/home/youngmo/ros2_ws/build/hangman_game_cpp' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_py:/home/youngmo/ros2_ws/install/ex_calculator_py:/home/youngmo/ros2_ws/install/hangman_game:/opt/ros/humble LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/youngmo/ros2_ws/build/hangman_game_cpp

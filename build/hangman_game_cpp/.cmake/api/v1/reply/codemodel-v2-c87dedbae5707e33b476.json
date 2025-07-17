@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-89ca74115d8676cfbe2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hangman_game_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hangman_game_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hangman_game_cpp_uninstall-bf170bd6cfe77f7b9325.json",
+					"name" : "hangman_game_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letter_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letter_publisher-e1b32cfae44341806c46.json",
+					"name" : "letter_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "progress_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-progress_action_client-6e6c92e91009af2392d3.json",
+					"name" : "progress_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "progress_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-progress_action_server-d30d1d2077499458dce2.json",
+					"name" : "progress_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c91917ccc6ef68270cb4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_input-8584ae80a6c2449e7c20.json",
+					"name" : "user_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "word_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-word_service-7b22bb766d242233a417.json",
+					"name" : "word_service",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/youngmo/ros2_ws/build/hangman_game_cpp",
+		"source" : "/home/youngmo/ros2_ws/src/hangman_game_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
