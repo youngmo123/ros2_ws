@@ -1,0 +1,25 @@
+[0.754s] Invoking command in '/home/youngmo/ros2_ws/src/hangman_game': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/hangman_game_cpp LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursorXLnvvw/usr/lib/:/tmp/.mount_CursorXLnvvw/usr/lib32/:/tmp/.mount_CursorXLnvvw/usr/lib64/:/tmp/.mount_CursorXLnvvw/lib/:/tmp/.mount_CursorXLnvvw/lib/i386-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/x86_64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/aarch64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib32/:/tmp/.mount_CursorXLnvvw/lib64/ PYTHONPATH=/home/youngmo/ros2_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hangman_game build --build-base /home/youngmo/ros2_ws/build/hangman_game/build install --record /home/youngmo/ros2_ws/build/hangman_game/install.log --single-version-externally-managed install_data
+[0.956s] running egg_info
+[0.956s] writing ../../build/hangman_game/hangman_game.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/hangman_game/hangman_game.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../build/hangman_game/hangman_game.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/hangman_game/hangman_game.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/hangman_game/hangman_game.egg-info/top_level.txt
+[0.962s] reading manifest file '../../build/hangman_game/hangman_game.egg-info/SOURCES.txt'
+[0.962s] writing manifest file '../../build/hangman_game/hangman_game.egg-info/SOURCES.txt'
+[0.962s] running build
+[0.962s] running build_py
+[0.962s] running install
+[0.962s] running install_lib
+[0.962s] running install_data
+[0.962s] running install_egg_info
+[0.964s] removing '/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages/hangman_game-0.0.0-py3.10.egg-info' (and everything under it)
+[0.966s] Copying ../../build/hangman_game/hangman_game.egg-info to /home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages/hangman_game-0.0.0-py3.10.egg-info
+[0.966s] running install_scripts
+[0.988s] Installing letter_publisher script to /home/youngmo/ros2_ws/install/hangman_game/lib/hangman_game
+[0.988s] Installing progress_action_client script to /home/youngmo/ros2_ws/install/hangman_game/lib/hangman_game
+[0.988s] Installing progress_action_server script to /home/youngmo/ros2_ws/install/hangman_game/lib/hangman_game
+[0.988s] Installing user_input script to /home/youngmo/ros2_ws/install/hangman_game/lib/hangman_game
+[0.988s] Installing word_service script to /home/youngmo/ros2_ws/install/hangman_game/lib/hangman_game
+[0.988s] writing list of installed files to '/home/youngmo/ros2_ws/build/hangman_game/install.log'
+[1.013s] Invoked command in '/home/youngmo/ros2_ws/src/hangman_game' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/hangman_game_cpp LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursorXLnvvw/usr/lib/:/tmp/.mount_CursorXLnvvw/usr/lib32/:/tmp/.mount_CursorXLnvvw/usr/lib64/:/tmp/.mount_CursorXLnvvw/lib/:/tmp/.mount_CursorXLnvvw/lib/i386-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/x86_64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/aarch64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib32/:/tmp/.mount_CursorXLnvvw/lib64/ PYTHONPATH=/home/youngmo/ros2_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/hangman_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hangman_game build --build-base /home/youngmo/ros2_ws/build/hangman_game/build install --record /home/youngmo/ros2_ws/build/hangman_game/install.log --single-version-externally-managed install_data

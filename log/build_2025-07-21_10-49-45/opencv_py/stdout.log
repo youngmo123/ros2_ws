@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/opencv_py/opencv_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv_py/opencv_py.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv_py/opencv_py.egg-info/entry_points.txt
+writing requirements to ../../build/opencv_py/opencv_py.egg-info/requires.txt
+writing top-level names to ../../build/opencv_py/opencv_py.egg-info/top_level.txt
+reading manifest file '../../build/opencv_py/opencv_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv_py/opencv_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying source/molu.py -> /home/youngmo/ros2_ws/build/opencv_py/build/lib/source
+running install
+running install_lib
+copying /home/youngmo/ros2_ws/build/opencv_py/build/lib/source/molu.py -> /home/youngmo/ros2_ws/install/opencv_py/lib/python3.10/site-packages/source
+byte-compiling /home/youngmo/ros2_ws/install/opencv_py/lib/python3.10/site-packages/source/molu.py to molu.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/youngmo/ros2_ws/install/opencv_py/lib/python3.10/site-packages/opencv_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/opencv_py/opencv_py.egg-info to /home/youngmo/ros2_ws/install/opencv_py/lib/python3.10/site-packages/opencv_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing grayscale script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing hough_transform script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing image_publisher script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing imageconverter script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing molu script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing moluya script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing personmosaic script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing saveimg script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+Installing yolo8 script to /home/youngmo/ros2_ws/install/opencv_py/lib/opencv_py
+writing list of installed files to '/home/youngmo/ros2_ws/build/opencv_py/install.log'

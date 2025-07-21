@@ -1,0 +1,24 @@
+[0.624s] Invoking command in '/home/youngmo/ros2_ws/src/ex_calculator_py': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_game_cpp:/home/youngmo/ros2_ws/install/hangman_interfaces LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursorXLnvvw/usr/lib/:/tmp/.mount_CursorXLnvvw/usr/lib32/:/tmp/.mount_CursorXLnvvw/usr/lib64/:/tmp/.mount_CursorXLnvvw/lib/:/tmp/.mount_CursorXLnvvw/lib/i386-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/x86_64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/aarch64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib32/:/tmp/.mount_CursorXLnvvw/lib64/ PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[0.760s] running egg_info
+[0.761s] writing ../../build/ex_calculator_py/ex_calculator_py.egg-info/PKG-INFO
+[0.761s] writing dependency_links to ../../build/ex_calculator_py/ex_calculator_py.egg-info/dependency_links.txt
+[0.761s] writing entry points to ../../build/ex_calculator_py/ex_calculator_py.egg-info/entry_points.txt
+[0.761s] writing requirements to ../../build/ex_calculator_py/ex_calculator_py.egg-info/requires.txt
+[0.761s] writing top-level names to ../../build/ex_calculator_py/ex_calculator_py.egg-info/top_level.txt
+[0.762s] reading manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.763s] running install
+[0.763s] running install_lib
+[0.768s] running install_data
+[0.768s] running install_egg_info
+[0.768s] removing '/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.768s] Copying ../../build/ex_calculator_py/ex_calculator_py.egg-info to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info
+[0.768s] running install_scripts
+[0.780s] Installing argument script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.781s] Installing calculator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.781s] Installing checker script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.781s] Installing operator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[0.781s] writing list of installed files to '/home/youngmo/ros2_ws/build/ex_calculator_py/install.log'
+[0.800s] Invoked command in '/home/youngmo/ros2_ws/src/ex_calculator_py' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_game_cpp:/home/youngmo/ros2_ws/install/hangman_interfaces LD_LIBRARY_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs/lib:/home/youngmo/ros2_ws/install/hangman_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_CursorXLnvvw/usr/lib/:/tmp/.mount_CursorXLnvvw/usr/lib32/:/tmp/.mount_CursorXLnvvw/usr/lib64/:/tmp/.mount_CursorXLnvvw/lib/:/tmp/.mount_CursorXLnvvw/lib/i386-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/x86_64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib/aarch64-linux-gnu/:/tmp/.mount_CursorXLnvvw/lib32/:/tmp/.mount_CursorXLnvvw/lib64/ PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data

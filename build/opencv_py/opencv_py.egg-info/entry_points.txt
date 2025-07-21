@@ -1,0 +1,11 @@
+[console_scripts]
+grayscale = source.grayscale:main
+hough_transform = source.hough_transform:main
+image_publisher = source.img_pub:main
+imageconverter = source.imageconverter:main
+molu = source.molu:main
+moluya = source.molu_yaml:main
+personmosaic = source.personmosaic:main
+saveimg = source.saveimg:main
+yolo8 = source.yolo8:main
+

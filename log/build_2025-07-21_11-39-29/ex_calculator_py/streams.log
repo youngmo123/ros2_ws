@@ -1,0 +1,24 @@
+[0.793s] Invoking command in '/home/youngmo/ros2_ws/src/ex_calculator_py': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_game_cpp:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
+[1.006s] running egg_info
+[1.006s] writing ../../build/ex_calculator_py/ex_calculator_py.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/ex_calculator_py/ex_calculator_py.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/ex_calculator_py/ex_calculator_py.egg-info/entry_points.txt
+[1.006s] writing requirements to ../../build/ex_calculator_py/ex_calculator_py.egg-info/requires.txt
+[1.006s] writing top-level names to ../../build/ex_calculator_py/ex_calculator_py.egg-info/top_level.txt
+[1.006s] reading manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[1.006s] writing manifest file '../../build/ex_calculator_py/ex_calculator_py.egg-info/SOURCES.txt'
+[1.006s] running build
+[1.006s] running build_py
+[1.007s] running install
+[1.007s] running install_lib
+[1.010s] running install_data
+[1.010s] running install_egg_info
+[1.013s] removing '/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.013s] Copying ../../build/ex_calculator_py/ex_calculator_py.egg-info to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages/ex_calculator_py-0.0.0-py3.10.egg-info
+[1.013s] running install_scripts
+[1.027s] Installing argument script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[1.027s] Installing calculator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[1.027s] Installing checker script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[1.028s] Installing operator script to /home/youngmo/ros2_ws/install/ex_calculator_py/lib/ex_calculator_py
+[1.028s] writing list of installed files to '/home/youngmo/ros2_ws/build/ex_calculator_py/install.log'
+[1.057s] Invoked command in '/home/youngmo/ros2_ws/src/ex_calculator_py' returned '0': CMAKE_PREFIX_PATH=/home/youngmo/ros2_ws/install/ros_study_msgs:/home/youngmo/ros2_ws/install/ros_study_cpp:/home/youngmo/ros2_ws/install/cpp_excalculator:/home/youngmo/ros2_ws/install/hangman_game_cpp:/home/youngmo/ros2_ws/install/hangman_interfaces PYTHONPATH=/home/youngmo/ros2_ws/build/ex_calculator_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youngmo/ros2_ws/install/ex_calculator_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_calculator_py build --build-base /home/youngmo/ros2_ws/build/ex_calculator_py/build install --record /home/youngmo/ros2_ws/build/ex_calculator_py/install.log --single-version-externally-managed install_data
